@@ -1,0 +1,5936 @@
+{
+  "built_utc": "2026-07-18T05:30:29.449628+00:00",
+  "note": "Import in Mathematica for formula microscope plots",
+  "score_boards": [
+    {
+      "prompt": "proto fluid communicate",
+      "domain": "linguistic",
+      "D_eff": 16.0,
+      "prediction": "communicate",
+      "winner_parts": {
+        "hybrid": 0.9929201482686298,
+        "sign": 0.04,
+        "aff": 0.28,
+        "prior": 0.21
+      },
+      "compare": [
+        {
+          "token": "communicate",
+          "score": 1.5229201482686299,
+          "S_tok": 0.40486200520362986,
+          "parts": {
+            "hybrid": 0.9929201482686298,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          },
+          "in_candidates": true
+        },
+        {
+          "token": "finance",
+          "score": 1.0329348873958675,
+          "S_tok": 0.5972535149674231,
+          "parts": {
+            "hybrid": 0.9629348873958674,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.03
+          },
+          "in_candidates": true
+        }
+      ],
+      "top5": [
+        {
+          "token": "communicate",
+          "score": 1.5229201482686299,
+          "S_tok": 0.40486200520362986,
+          "parts": {
+            "hybrid": 0.9929201482686298,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          }
+        },
+        {
+          "token": "fluid",
+          "score": 1.5125482275636586,
+          "S_tok": 0.367493932452253,
+          "parts": {
+            "hybrid": 0.9825482275636586,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          }
+        },
+        {
+          "token": "proto",
+          "score": 1.5068412004027436,
+          "S_tok": 0.3186285048399583,
+          "parts": {
+            "hybrid": 0.9768412004027436,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          }
+        },
+        {
+          "token": "structure",
+          "score": 1.2387848916227013,
+          "S_tok": 0.35549796449251087,
+          "parts": {
+            "hybrid": 0.9887848916227013,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.21
+          }
+        },
+        {
+          "token": "code",
+          "score": 1.2338805338629346,
+          "S_tok": 0.35988065741552566,
+          "parts": {
+            "hybrid": 0.9838805338629346,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.21
+          }
+        }
+      ],
+      "S_context": 0.6294447965481688
+    },
+    {
+      "prompt": "medical signal diagnose",
+      "domain": "medical",
+      "D_eff": 13.0,
+      "prediction": "diagnose",
+      "winner_parts": {
+        "hybrid": 0.572098407398741,
+        "sign": 0.04,
+        "aff": 0.28,
+        "prior": 0.18
+      },
+      "compare": [
+        {
+          "token": "diagnose",
+          "score": 1.072098407398741,
+          "S_tok": 0.30618888150083134,
+          "parts": {
+            "hybrid": 0.572098407398741,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          },
+          "in_candidates": true
+        },
+        {
+          "token": "finance",
+          "score": null,
+          "S_tok": null,
+          "parts": {},
+          "in_candidates": false
+        }
+      ],
+      "top5": [
+        {
+          "token": "diagnose",
+          "score": 1.072098407398741,
+          "S_tok": 0.30618888150083134,
+          "parts": {
+            "hybrid": 0.572098407398741,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          }
+        },
+        {
+          "token": "medical",
+          "score": 0.9186071677563532,
+          "S_tok": 0.3214929271352267,
+          "parts": {
+            "hybrid": 0.4186071677563533,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          }
+        },
+        {
+          "token": "signal",
+          "score": 0.8230681355350078,
+          "S_tok": 0.31065622277650434,
+          "parts": {
+            "hybrid": 0.5030681355350077,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.0
+          }
+        },
+        {
+          "token": "trinary",
+          "score": 0.7903576924407609,
+          "S_tok": 0.3062157514255717,
+          "parts": {
+            "hybrid": 0.5703576924407608,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "token": "create",
+          "score": 0.7699152650464534,
+          "S_tok": 0.30643922583957933,
+          "parts": {
+            "hybrid": 0.5499152650464533,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        }
+      ],
+      "S_context": 0.31283519283741895
+    },
+    {
+      "prompt": "quantum measure collapse",
+      "domain": "quantum",
+      "D_eff": 6.0,
+      "prediction": "measure",
+      "winner_parts": {
+        "hybrid": 0.9812582316224614,
+        "sign": 0.04,
+        "aff": 0.28,
+        "prior": 0.18
+      },
+      "compare": [
+        {
+          "token": "measure",
+          "score": 1.4812582316224614,
+          "S_tok": 0.35918435234084123,
+          "parts": {
+            "hybrid": 0.9812582316224614,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          },
+          "in_candidates": true
+        },
+        {
+          "token": "king",
+          "score": null,
+          "S_tok": null,
+          "parts": {},
+          "in_candidates": false
+        }
+      ],
+      "top5": [
+        {
+          "token": "measure",
+          "score": 1.4812582316224614,
+          "S_tok": 0.35918435234084123,
+          "parts": {
+            "hybrid": 0.9812582316224614,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          }
+        },
+        {
+          "token": "collapse",
+          "score": 1.4733168206936305,
+          "S_tok": 0.6427861792561824,
+          "parts": {
+            "hybrid": 0.9733168206936305,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          }
+        },
+        {
+          "token": "quantum",
+          "score": 1.2819731101392788,
+          "S_tok": 0.6312493953329199,
+          "parts": {
+            "hybrid": 0.9619731101392788,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.0
+          }
+        },
+        {
+          "token": "structure",
+          "score": 1.2075229464562338,
+          "S_tok": 0.4712732441937168,
+          "parts": {
+            "hybrid": 0.9875229464562338,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "token": "consciousness",
+          "score": 1.2068542752602642,
+          "S_tok": 0.33398844988130094,
+          "parts": {
+            "hybrid": 0.9868542752602643,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        }
+      ],
+      "S_context": 0.9239722205771141
+    },
+    {
+      "prompt": "fluid spacetime language translate",
+      "domain": "linguistic",
+      "D_eff": 16.0,
+      "prediction": "translate",
+      "winner_parts": {
+        "hybrid": 0.9918692464750261,
+        "sign": 0.04,
+        "aff": 0.28,
+        "prior": 0.21
+      },
+      "compare": [
+        {
+          "token": "translate",
+          "score": 1.521869246475026,
+          "S_tok": 0.4085162506556731,
+          "parts": {
+            "hybrid": 0.9918692464750261,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          },
+          "in_candidates": true
+        },
+        {
+          "token": "gaul",
+          "score": null,
+          "S_tok": null,
+          "parts": {},
+          "in_candidates": false
+        }
+      ],
+      "top5": [
+        {
+          "token": "translate",
+          "score": 1.521869246475026,
+          "S_tok": 0.4085162506556731,
+          "parts": {
+            "hybrid": 0.9918692464750261,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          }
+        },
+        {
+          "token": "language",
+          "score": 1.515871792608652,
+          "S_tok": 0.4648733710945341,
+          "parts": {
+            "hybrid": 0.985871792608652,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          }
+        },
+        {
+          "token": "fluid",
+          "score": 1.5146305290104882,
+          "S_tok": 0.367493932452253,
+          "parts": {
+            "hybrid": 0.9846305290104882,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          }
+        },
+        {
+          "token": "spacetime",
+          "score": 1.5129082262162727,
+          "S_tok": 0.33032107308485725,
+          "parts": {
+            "hybrid": 0.9829082262162727,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          }
+        },
+        {
+          "token": "transfer",
+          "score": 1.3344836463706564,
+          "S_tok": 0.32414289258049417,
+          "parts": {
+            "hybrid": 0.9844836463706563,
+            "sign": 0.04,
+            "aff": 0.1,
+            "prior": 0.21
+          }
+        }
+      ],
+      "S_context": 0.6294447965481688
+    },
+    {
+      "prompt": "sky earth time create",
+      "domain": "mythological",
+      "D_eff": 21.0,
+      "prediction": "create",
+      "winner_parts": {
+        "hybrid": 0.8586854214702329,
+        "sign": 0.04,
+        "aff": 0.28,
+        "prior": 0.18
+      },
+      "compare": [
+        {
+          "token": "earth",
+          "score": 1.2989894870220897,
+          "S_tok": 0.557204641527133,
+          "parts": {
+            "hybrid": 0.9789894870220897,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.0
+          },
+          "in_candidates": true
+        },
+        {
+          "token": "finance",
+          "score": null,
+          "S_tok": null,
+          "parts": {},
+          "in_candidates": false
+        }
+      ],
+      "top5": [
+        {
+          "token": "create",
+          "score": 1.3586854214702329,
+          "S_tok": 0.8821383632189781,
+          "parts": {
+            "hybrid": 0.8586854214702329,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          }
+        },
+        {
+          "token": "earth",
+          "score": 1.2989894870220897,
+          "S_tok": 0.557204641527133,
+          "parts": {
+            "hybrid": 0.9789894870220897,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.0
+          }
+        },
+        {
+          "token": "time",
+          "score": 1.2916823785578035,
+          "S_tok": 0.40954027495740036,
+          "parts": {
+            "hybrid": 0.9716823785578035,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.0
+          }
+        },
+        {
+          "token": "spacetime",
+          "score": 1.2894528554284506,
+          "S_tok": 0.4079119599575822,
+          "parts": {
+            "hybrid": 0.9694528554284505,
+            "sign": 0.04,
+            "aff": 0.1,
+            "prior": 0.18
+          }
+        },
+        {
+          "token": "truth",
+          "score": 1.2030814206326512,
+          "S_tok": 0.7489763217230094,
+          "parts": {
+            "hybrid": 0.9830814206326512,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        }
+      ],
+      "S_context": 0.8667609069305802
+    }
+  ],
+  "structured_generations": [
+    {
+      "prompt": "fsot scalar seed domain",
+      "mode": "structured_slots_v4_bridges",
+      "domain": "linguistic",
+      "D_eff": 16.0,
+      "generated": "fsot domain verify scalar consensus omni theory seed",
+      "sentence": "In the domain fsot, against the proof of phase create, verifies the scalar with consensus, through the medium of medical collapse and with respect to effect, toward theory\u2014 seed.",
+      "sentence_classic": "fsot in domain does verify the scalar with consensus via omni toward theory \u2014 seed",
+      "sentence_template": "Inside this domain, fsot verifies the scalar with consensus. That points to seed.",
+      "sentence_fluent": "In the domain fsot, against the proof of phase create, verifies the scalar with consensus, through the medium of medical collapse and with respect to effect, toward theory\u2014 seed.",
+      "tokens": [
+        "fsot",
+        "domain",
+        "verify",
+        "scalar",
+        "consensus",
+        "omni",
+        "theory",
+        "seed"
+      ],
+      "role_map": {
+        "subject": "fsot",
+        "link": "domain",
+        "act": "verify",
+        "object": "scalar",
+        "qual": "consensus",
+        "bridge": "omni",
+        "close": "theory",
+        "seal": "seed"
+      },
+      "hybrid_extra": [
+        "proof",
+        "phase",
+        "create",
+        "medical",
+        "collapse",
+        "form",
+        "effect",
+        "start",
+        "action"
+      ],
+      "bridges": [
+        {
+          "left": "fsot",
+          "right": "verify",
+          "phrase": "against the proof of",
+          "tokens": [
+            "proof",
+            "phase",
+            "create"
+          ],
+          "text": "against the proof of phase create",
+          "n": 3
+        },
+        {
+          "left": "verify",
+          "right": "scalar",
+          "phrase": "through the medium of",
+          "tokens": [
+            "medical",
+            "collapse",
+            "form"
+          ],
+          "text": "through the medium of medical collapse",
+          "n": 3
+        },
+        {
+          "left": "scalar",
+          "right": "theory",
+          "phrase": "with respect to",
+          "tokens": [
+            "effect",
+            "start",
+            "action"
+          ],
+          "text": "with respect to effect start",
+          "n": 3
+        }
+      ],
+      "n_roles": 8,
+      "steps": [
+        {
+          "slot": 1,
+          "role": "subject",
+          "prefer": [
+            "fluid",
+            "fsot",
+            "language",
+            "proto",
+            "universal"
+          ],
+          "token": "fsot",
+          "D_eff": 16.114640541689234,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "fsot",
+              "score": 2.266666940700314,
+              "S_tok": 0.559135200044225,
+              "parts": {
+                "hybrid": 0.9866669407003135,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "proto",
+              "score": 1.7828907388581723,
+              "S_tok": 0.3187398901824689,
+              "parts": {
+                "hybrid": 0.9828907388581722,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "universal",
+              "score": 1.780555118140971,
+              "S_tok": 0.4733377255171501,
+              "parts": {
+                "hybrid": 0.9805551181409708,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "language",
+              "score": 1.7775520196239885,
+              "S_tok": 0.46482441557721615,
+              "parts": {
+                "hybrid": 0.9775520196239884,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9866669407003135,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 2,
+          "role": "link",
+          "prefer": [
+            "domain",
+            "field",
+            "phase",
+            "structure"
+          ],
+          "token": "domain",
+          "D_eff": 16.067756186370104,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "domain",
+              "score": 1.9416603702934165,
+              "S_tok": 0.6145556164288806,
+              "parts": {
+                "hybrid": 0.6616603702934164,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "phase",
+              "score": 1.469954611314484,
+              "S_tok": 0.3104698474888097,
+              "parts": {
+                "hybrid": 0.6699546113144839,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "field",
+              "score": 1.4528053405666075,
+              "S_tok": 0.5141141936727719,
+              "parts": {
+                "hybrid": 0.6528053405666074,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.4078552258291874,
+              "S_tok": 0.35553992822689584,
+              "parts": {
+                "hybrid": 0.6078552258291875,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.6616603702934164,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 3,
+          "role": "act",
+          "prefer": [
+            "communicate",
+            "observe",
+            "translate",
+            "verify"
+          ],
+          "token": "verify",
+          "D_eff": 15.925405507673176,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "verify",
+              "score": 1.7895249043585035,
+              "S_tok": 0.4586932352484085,
+              "parts": {
+                "hybrid": 0.9895249043585035,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "observe",
+              "score": 1.7858976529769823,
+              "S_tok": 0.3941124578148774,
+              "parts": {
+                "hybrid": 0.9858976529769823,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "communicate",
+              "score": 1.7858820960171855,
+              "S_tok": 0.40485102370508114,
+              "parts": {
+                "hybrid": 0.9858820960171855,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "translate",
+              "score": 1.785165062894793,
+              "S_tok": 0.4085078817861704,
+              "parts": {
+                "hybrid": 0.985165062894793,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9895249043585035,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 4,
+          "role": "object",
+          "prefer": [
+            "cosmology",
+            "formula",
+            "fusion",
+            "gold",
+            "language",
+            "meaning",
+            "mount",
+            "river",
+            "scalar",
+            "seed",
+            "tree",
+            "water"
+          ],
+          "token": "scalar",
+          "D_eff": 15.888156109142413,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "scalar",
+              "score": 2.271843926167139,
+              "S_tok": 0.5635999067298347,
+              "parts": {
+                "hybrid": 0.9918439261671388,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "seed",
+              "score": 2.270371249167051,
+              "S_tok": 0.317259364524686,
+              "parts": {
+                "hybrid": 0.9903712491670507,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "meaning",
+              "score": 1.7921827554840448,
+              "S_tok": 0.5835833476131573,
+              "parts": {
+                "hybrid": 0.9921827554840448,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "language",
+              "score": 1.7862481841106594,
+              "S_tok": 0.4649212570420054,
+              "parts": {
+                "hybrid": 0.9862481841106594,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9918439261671388,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 5,
+          "role": "qual",
+          "prefer": [
+            "consensus",
+            "formal",
+            "formula",
+            "god",
+            "igem",
+            "king",
+            "linguistics",
+            "longevity",
+            "materials",
+            "parameter",
+            "structure",
+            "theory"
+          ],
+          "token": "consensus",
+          "D_eff": 16.008491215059983,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "consensus",
+              "score": 1.421349606001851,
+              "S_tok": 0.530597672014569,
+              "parts": {
+                "hybrid": 0.6213496060018509,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "theory",
+              "score": 1.4178891155726816,
+              "S_tok": 0.6172690471544297,
+              "parts": {
+                "hybrid": 0.6178891155726816,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "parameter",
+              "score": 1.398318091789848,
+              "S_tok": 0.37350778119205086,
+              "parts": {
+                "hybrid": 0.5983180917898477,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.369360761524048,
+              "S_tok": 0.35550322699639664,
+              "parts": {
+                "hybrid": 0.5693607615240479,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.6213496060018509,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 6,
+          "role": "bridge",
+          "prefer": [
+            "bird",
+            "female",
+            "fluid",
+            "fuel",
+            "law",
+            "math",
+            "omni",
+            "sky",
+            "son",
+            "spacetime",
+            "theory"
+          ],
+          "token": "omni",
+          "D_eff": 16.116862467546387,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "omni",
+              "score": 1.6334325330697907,
+              "S_tok": 0.5424247490154434,
+              "parts": {
+                "hybrid": 0.8334325330697907,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "theory",
+              "score": 1.629827554493666,
+              "S_tok": 0.6170648303624882,
+              "parts": {
+                "hybrid": 0.829827554493666,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "spacetime",
+              "score": 1.6285774823958765,
+              "S_tok": 0.3304215466272397,
+              "parts": {
+                "hybrid": 0.8285774823958765,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "fluid",
+              "score": 1.6261021750357616,
+              "S_tok": 0.3675528613416312,
+              "parts": {
+                "hybrid": 0.8261021750357616,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.8334325330697907,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 7,
+          "role": "close",
+          "prefer": [
+            "proof",
+            "theory",
+            "truth",
+            "verify"
+          ],
+          "token": "theory",
+          "D_eff": 16.06057819977415,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "theory",
+              "score": 1.790356291559387,
+              "S_tok": 0.6171708292771386,
+              "parts": {
+                "hybrid": 0.9903562915593869,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "proof",
+              "score": 1.7898995360359058,
+              "S_tok": 0.5159501204855648,
+              "parts": {
+                "hybrid": 0.9898995360359057,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "truth",
+              "score": 1.7876587990793293,
+              "S_tok": 0.5234075951871213,
+              "parts": {
+                "hybrid": 0.9876587990793293,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "seed",
+              "score": 1.71799331267381,
+              "S_tok": 0.3174292911788184,
+              "parts": {
+                "hybrid": 0.9879933126738101,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9903562915593869,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 8,
+          "role": "seal",
+          "prefer": [
+            "consensus",
+            "fsot",
+            "parameter",
+            "seed"
+          ],
+          "token": "seed",
+          "D_eff": 15.918941164688617,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "seed",
+              "score": 1.9610768258184597,
+              "S_tok": 0.31728975317996283,
+              "parts": {
+                "hybrid": 0.6810768258184596,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "parameter",
+              "score": 1.4671138239484725,
+              "S_tok": 0.37346768434941824,
+              "parts": {
+                "hybrid": 0.6671138239484725,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "consciousness",
+              "score": 1.017107153065598,
+              "S_tok": 0.30998337459653325,
+              "parts": {
+                "hybrid": 0.697107153065598,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "phase",
+              "score": 0.9463268998084308,
+              "S_tok": 0.31031331404665047,
+              "parts": {
+                "hybrid": 0.6963268998084308,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.6810768258184596,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          }
+        }
+      ],
+      "phase": "structure",
+      "formula": "for role in slots[1..8]: argmax(score + role_prefer - filled_ban); fluent = template | skeleton + sparse free_bridge tissue"
+    },
+    {
+      "prompt": "proto fluid communicate",
+      "mode": "structured_slots_v4_bridges",
+      "domain": "linguistic",
+      "D_eff": 16.0,
+      "generated": "fluid phase communicate language consensus omni verify fsot",
+      "sentence": "On proto, in the phase fluid, under the law of proto therefore, communicates the language with consensus, on the spine of effect create and on the spine of diagnose, toward verify\u2014 fsot.",
+      "sentence_classic": "fluid in phase does communicate the language with consensus via omni toward verify \u2014 fsot",
+      "sentence_template": "On proto, in the phase, fluid communicates the language with consensus. That points to fsot.",
+      "sentence_fluent": "On proto, in the phase fluid, under the law of proto therefore, communicates the language with consensus, on the spine of effect create and on the spine of diagnose, toward verify\u2014 fsot.",
+      "tokens": [
+        "fluid",
+        "phase",
+        "communicate",
+        "language",
+        "consensus",
+        "omni",
+        "verify",
+        "fsot"
+      ],
+      "role_map": {
+        "subject": "fluid",
+        "link": "phase",
+        "act": "communicate",
+        "object": "language",
+        "qual": "consensus",
+        "bridge": "omni",
+        "close": "verify",
+        "seal": "fsot"
+      },
+      "hybrid_extra": [
+        "proto",
+        "therefore",
+        "mind",
+        "effect",
+        "create",
+        "meaning",
+        "diagnose",
+        "trinary",
+        "form"
+      ],
+      "bridges": [
+        {
+          "left": "fluid",
+          "right": "communicate",
+          "phrase": "under the law of",
+          "tokens": [
+            "proto",
+            "therefore",
+            "mind"
+          ],
+          "text": "under the law of proto therefore",
+          "n": 3
+        },
+        {
+          "left": "communicate",
+          "right": "language",
+          "phrase": "on the spine of",
+          "tokens": [
+            "effect",
+            "create",
+            "meaning"
+          ],
+          "text": "on the spine of effect create",
+          "n": 3
+        },
+        {
+          "left": "language",
+          "right": "verify",
+          "phrase": "on the spine of",
+          "tokens": [
+            "diagnose",
+            "trinary",
+            "form"
+          ],
+          "text": "on the spine of diagnose trinary",
+          "n": 3
+        }
+      ],
+      "n_roles": 8,
+      "steps": [
+        {
+          "slot": 1,
+          "role": "subject",
+          "prefer": [
+            "fluid",
+            "fsot",
+            "language",
+            "proto",
+            "universal"
+          ],
+          "token": "fluid",
+          "D_eff": 16.114640541689234,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "fluid",
+              "score": 2.262548227563659,
+              "S_tok": 0.36755174241205163,
+              "parts": {
+                "hybrid": 0.9825482275636586,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "proto",
+              "score": 2.256841200402744,
+              "S_tok": 0.3187398901824689,
+              "parts": {
+                "hybrid": 0.9768412004027434,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "language",
+              "score": 1.779942154970548,
+              "S_tok": 0.46482441557721615,
+              "parts": {
+                "hybrid": 0.979942154970548,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "universal",
+              "score": 1.7793991103242108,
+              "S_tok": 0.4733377255171501,
+              "parts": {
+                "hybrid": 0.9793991103242108,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9825482275636586,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 2,
+          "role": "link",
+          "prefer": [
+            "domain",
+            "field",
+            "phase",
+            "structure"
+          ],
+          "token": "phase",
+          "D_eff": 16.067756186370104,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "phase",
+              "score": 1.792961250803459,
+              "S_tok": 0.3104698474888097,
+              "parts": {
+                "hybrid": 0.9929612508034589,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "domain",
+              "score": 1.7866882376028934,
+              "S_tok": 0.6145556164288806,
+              "parts": {
+                "hybrid": 0.9866882376028934,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "field",
+              "score": 1.785099201174698,
+              "S_tok": 0.5141141936727719,
+              "parts": {
+                "hybrid": 0.985099201174698,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.773969197828627,
+              "S_tok": 0.35553992822689584,
+              "parts": {
+                "hybrid": 0.9739691978286269,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9929612508034589,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 3,
+          "role": "act",
+          "prefer": [
+            "communicate",
+            "observe",
+            "translate",
+            "verify"
+          ],
+          "token": "communicate",
+          "D_eff": 15.925405507673176,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "communicate",
+              "score": 1.9247430029132875,
+              "S_tok": 0.40485102370508114,
+              "parts": {
+                "hybrid": 0.6447430029132873,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "verify",
+              "score": 1.4545043339198074,
+              "S_tok": 0.4586932352484085,
+              "parts": {
+                "hybrid": 0.6545043339198074,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "translate",
+              "score": 1.4452588257914283,
+              "S_tok": 0.4085078817861704,
+              "parts": {
+                "hybrid": 0.6452588257914282,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "observe",
+              "score": 1.4439927721711614,
+              "S_tok": 0.3941124578148774,
+              "parts": {
+                "hybrid": 0.6439927721711615,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.6447430029132873,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 4,
+          "role": "object",
+          "prefer": [
+            "cosmology",
+            "formula",
+            "fusion",
+            "gold",
+            "language",
+            "meaning",
+            "mount",
+            "river",
+            "scalar",
+            "seed",
+            "tree",
+            "water"
+          ],
+          "token": "language",
+          "D_eff": 15.888156109142413,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "language",
+              "score": 1.7861076559284266,
+              "S_tok": 0.4649212570420054,
+              "parts": {
+                "hybrid": 0.9861076559284265,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "seed",
+              "score": 1.7852097648570908,
+              "S_tok": 0.317259364524686,
+              "parts": {
+                "hybrid": 0.9852097648570908,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "scalar",
+              "score": 1.7847916253533704,
+              "S_tok": 0.5635999067298347,
+              "parts": {
+                "hybrid": 0.9847916253533704,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "meaning",
+              "score": 1.784372947698704,
+              "S_tok": 0.5835833476131573,
+              "parts": {
+                "hybrid": 0.984372947698704,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9861076559284265,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 5,
+          "role": "qual",
+          "prefer": [
+            "consensus",
+            "formal",
+            "formula",
+            "god",
+            "igem",
+            "king",
+            "linguistics",
+            "longevity",
+            "materials",
+            "parameter",
+            "structure",
+            "theory"
+          ],
+          "token": "consensus",
+          "D_eff": 16.008491215059983,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "consensus",
+              "score": 1.7891375618321406,
+              "S_tok": 0.530597672014569,
+              "parts": {
+                "hybrid": 0.9891375618321405,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "parameter",
+              "score": 1.7862987428974442,
+              "S_tok": 0.37350778119205086,
+              "parts": {
+                "hybrid": 0.9862987428974441,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "theory",
+              "score": 1.7851302067411081,
+              "S_tok": 0.6172690471544297,
+              "parts": {
+                "hybrid": 0.9851302067411081,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.7805810592621558,
+              "S_tok": 0.35550322699639664,
+              "parts": {
+                "hybrid": 0.9805810592621558,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9891375618321405,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 6,
+          "role": "bridge",
+          "prefer": [
+            "bird",
+            "female",
+            "fluid",
+            "fuel",
+            "law",
+            "math",
+            "omni",
+            "sky",
+            "son",
+            "spacetime",
+            "theory"
+          ],
+          "token": "omni",
+          "D_eff": 16.116862467546387,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "omni",
+              "score": 1.453563467810418,
+              "S_tok": 0.5424247490154434,
+              "parts": {
+                "hybrid": 0.6535634678104177,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "theory",
+              "score": 1.4498832777630504,
+              "S_tok": 0.6170648303624882,
+              "parts": {
+                "hybrid": 0.6498832777630503,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "spacetime",
+              "score": 1.4414993455354759,
+              "S_tok": 0.3304215466272397,
+              "parts": {
+                "hybrid": 0.6414993455354758,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "proto",
+              "score": 1.3793616388733105,
+              "S_tok": 0.318742046080084,
+              "parts": {
+                "hybrid": 0.6493616388733104,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.6535634678104177,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 7,
+          "role": "close",
+          "prefer": [
+            "proof",
+            "theory",
+            "truth",
+            "verify"
+          ],
+          "token": "verify",
+          "D_eff": 16.06057819977415,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "verify",
+              "score": 1.5858884091205008,
+              "S_tok": 0.4586434627718488,
+              "parts": {
+                "hybrid": 0.7858884091205006,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "theory",
+              "score": 1.5853376200476026,
+              "S_tok": 0.6171708292771386,
+              "parts": {
+                "hybrid": 0.7853376200476024,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "proof",
+              "score": 1.5850005251250434,
+              "S_tok": 0.5159501204855648,
+              "parts": {
+                "hybrid": 0.7850005251250433,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "truth",
+              "score": 1.5832062311463952,
+              "S_tok": 0.5234075951871213,
+              "parts": {
+                "hybrid": 0.7832062311463952,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.7858884091205006,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.21
+          }
+        },
+        {
+          "slot": 8,
+          "role": "seal",
+          "prefer": [
+            "consensus",
+            "fsot",
+            "parameter",
+            "seed"
+          ],
+          "token": "fsot",
+          "D_eff": 15.918941164688617,
+          "domain": "linguistic",
+          "top": [
+            {
+              "token": "fsot",
+              "score": 1.792874478582066,
+              "S_tok": 0.5593957205752134,
+              "parts": {
+                "hybrid": 0.992874478582066,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "seed",
+              "score": 1.7927554190070536,
+              "S_tok": 0.31728975317996283,
+              "parts": {
+                "hybrid": 0.9927554190070536,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "parameter",
+              "score": 1.7920172138470527,
+              "S_tok": 0.37346768434941824,
+              "parts": {
+                "hybrid": 0.9920172138470527,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "proto",
+              "score": 1.7237192483643564,
+              "S_tok": 0.31854956973979714,
+              "parts": {
+                "hybrid": 0.9937192483643564,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.992874478582066,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.21
+          }
+        }
+      ],
+      "phase": "structure",
+      "formula": "for role in slots[1..8]: argmax(score + role_prefer - filled_ban); fluent = template | skeleton + sparse free_bridge tissue"
+    },
+    {
+      "prompt": "neural consciousness observe",
+      "mode": "structured_slots_v4_bridges",
+      "domain": "neural",
+      "D_eff": 14.0,
+      "generated": "consciousness phase observe structure consensus meaning seed neural",
+      "sentence": "In the phase consciousness, inside the fold of form language, observes the structure with consensus, across the domain of theory code and in light of transfer, toward seed\u2014 neural.",
+      "sentence_classic": "consciousness in phase does observe the structure with consensus via meaning toward seed \u2014 neural",
+      "sentence_template": "In the phase, consciousness observes the structure with consensus. That points to neural.",
+      "sentence_fluent": "In the phase consciousness, inside the fold of form language, observes the structure with consensus, across the domain of theory code and in light of transfer, toward seed\u2014 neural.",
+      "tokens": [
+        "consciousness",
+        "phase",
+        "observe",
+        "structure",
+        "consensus",
+        "meaning",
+        "seed",
+        "neural"
+      ],
+      "role_map": {
+        "subject": "consciousness",
+        "link": "phase",
+        "act": "observe",
+        "object": "structure",
+        "qual": "consensus",
+        "bridge": "meaning",
+        "close": "seed",
+        "seal": "neural"
+      },
+      "hybrid_extra": [
+        "form",
+        "language",
+        "collapse",
+        "domain",
+        "theory",
+        "code",
+        "transfer",
+        "translate",
+        "verify"
+      ],
+      "bridges": [
+        {
+          "left": "consciousness",
+          "right": "observe",
+          "phrase": "inside the fold of",
+          "tokens": [
+            "form",
+            "language",
+            "collapse"
+          ],
+          "text": "inside the fold of form language",
+          "n": 3
+        },
+        {
+          "left": "observe",
+          "right": "structure",
+          "phrase": "across the domain of",
+          "tokens": [
+            "domain",
+            "theory",
+            "code"
+          ],
+          "text": "across the domain of theory code",
+          "n": 3
+        },
+        {
+          "left": "structure",
+          "right": "seed",
+          "phrase": "in light of",
+          "tokens": [
+            "transfer",
+            "translate",
+            "verify"
+          ],
+          "text": "in light of transfer translate",
+          "n": 3
+        }
+      ],
+      "n_roles": 8,
+      "steps": [
+        {
+          "slot": 1,
+          "role": "subject",
+          "prefer": [
+            "consciousness",
+            "mind",
+            "neural",
+            "neuroscience"
+          ],
+          "token": "consciousness",
+          "D_eff": 14.114640541689235,
+          "domain": "neural",
+          "top": [
+            {
+              "token": "consciousness",
+              "score": 2.125784387285822,
+              "S_tok": 0.3073201216531107,
+              "parts": {
+                "hybrid": 0.8757843872858219,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "neural",
+              "score": 1.9697072125214996,
+              "S_tok": 0.5092259400660172,
+              "parts": {
+                "hybrid": 0.8997072125214995,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "mind",
+              "score": 1.6429618859142017,
+              "S_tok": 0.3070276779306248,
+              "parts": {
+                "hybrid": 0.8729618859142017,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "observe",
+              "score": 1.617281966510324,
+              "S_tok": 0.34365144695570315,
+              "parts": {
+                "hybrid": 0.917281966510324,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.8757843872858219,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 2,
+          "role": "link",
+          "prefer": [
+            "field",
+            "phase",
+            "structure"
+          ],
+          "token": "phase",
+          "D_eff": 14.067756186370106,
+          "domain": "neural",
+          "top": [
+            {
+              "token": "phase",
+              "score": 1.7652291265708164,
+              "S_tok": 0.30707968860306517,
+              "parts": {
+                "hybrid": 0.9952291265708164,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "field",
+              "score": 1.7344832037605018,
+              "S_tok": 0.42098607326557463,
+              "parts": {
+                "hybrid": 0.9644832037605018,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.725604209985648,
+              "S_tok": 0.3222388262536943,
+              "parts": {
+                "hybrid": 0.9556042099856479,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "observe",
+              "score": 1.6657082845953952,
+              "S_tok": 0.3436164747316807,
+              "parts": {
+                "hybrid": 0.9657082845953953,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9952291265708164,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 3,
+          "role": "act",
+          "prefer": [
+            "communicate",
+            "measure",
+            "observe"
+          ],
+          "token": "observe",
+          "D_eff": 13.925405507673176,
+          "domain": "neural",
+          "top": [
+            {
+              "token": "observe",
+              "score": 1.9347401316047363,
+              "S_tok": 0.3435101689630382,
+              "parts": {
+                "hybrid": 0.6847401316047365,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "measure",
+              "score": 1.4903203121552129,
+              "S_tok": 0.3063651722184716,
+              "parts": {
+                "hybrid": 0.7203203121552129,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "communicate",
+              "score": 1.4515583496733448,
+              "S_tok": 0.34988861456426446,
+              "parts": {
+                "hybrid": 0.6815583496733447,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "neural",
+              "score": 1.2082699244123767,
+              "S_tok": 0.509390159861879,
+              "parts": {
+                "hybrid": 0.6882699244123768,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.6847401316047365,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 4,
+          "role": "object",
+          "prefer": [
+            "coherence",
+            "connectomics",
+            "consciousness",
+            "coupling",
+            "field",
+            "mind",
+            "neuroscience",
+            "structure",
+            "threshold"
+          ],
+          "token": "structure",
+          "D_eff": 13.888156109142413,
+          "domain": "neural",
+          "top": [
+            {
+              "token": "structure",
+              "score": 1.7570490785308965,
+              "S_tok": 0.32206723725325287,
+              "parts": {
+                "hybrid": 0.9870490785308965,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "field",
+              "score": 1.7543575582131998,
+              "S_tok": 0.4209874119101478,
+              "parts": {
+                "hybrid": 0.9843575582131998,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "mind",
+              "score": 1.7345256944151726,
+              "S_tok": 0.30677766085868596,
+              "parts": {
+                "hybrid": 0.9645256944151726,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "neural",
+              "score": 1.5022822969756586,
+              "S_tok": 0.5094225281462943,
+              "parts": {
+                "hybrid": 0.9822822969756586,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9870490785308965,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 5,
+          "role": "qual",
+          "prefer": [
+            "aspect",
+            "coherence",
+            "consensus",
+            "depth",
+            "observable",
+            "phase",
+            "resonance",
+            "scale"
+          ],
+          "token": "consensus",
+          "D_eff": 14.008491215059982,
+          "domain": "neural",
+          "top": [
+            {
+              "token": "consensus",
+              "score": 1.8608876087007489,
+              "S_tok": 0.43240280521891133,
+              "parts": {
+                "hybrid": 0.9908876087007488,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "neural",
+              "score": 1.512320133101949,
+              "S_tok": 0.5093180112344184,
+              "parts": {
+                "hybrid": 0.9923201331019489,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "energy",
+              "score": 1.2134920441525048,
+              "S_tok": 0.3121599533501201,
+              "parts": {
+                "hybrid": 0.9934920441525048,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "fluid",
+              "score": 1.2129346911192211,
+              "S_tok": 0.3285008146764909,
+              "parts": {
+                "hybrid": 0.9929346911192212,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9908876087007488,
+            "sign": 0.04,
+            "aff": 0.1,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 6,
+          "role": "bridge",
+          "prefer": [
+            "flux",
+            "language",
+            "meaning",
+            "panel",
+            "process",
+            "signal"
+          ],
+          "token": "meaning",
+          "D_eff": 14.116862467546385,
+          "domain": "neural",
+          "top": [
+            {
+              "token": "meaning",
+              "score": 1.444091825272168,
+              "S_tok": 0.4701331110007271,
+              "parts": {
+                "hybrid": 0.6740918252721679,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "language",
+              "score": 1.4372177012189447,
+              "S_tok": 0.387820779103532,
+              "parts": {
+                "hybrid": 0.6672177012189445,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "neural",
+              "score": 1.1945473690891424,
+              "S_tok": 0.5092240141375984,
+              "parts": {
+                "hybrid": 0.6745473690891424,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "form",
+              "score": 0.9401670395486137,
+              "S_tok": 0.30673881639913125,
+              "parts": {
+                "hybrid": 0.7201670395486137,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.6740918252721679,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 7,
+          "role": "close",
+          "prefer": [
+            "observe",
+            "seed",
+            "truth"
+          ],
+          "token": "seed",
+          "D_eff": 14.06057819977415,
+          "domain": "neural",
+          "top": [
+            {
+              "token": "seed",
+              "score": 1.5924018209837965,
+              "S_tok": 0.30676389349058136,
+              "parts": {
+                "hybrid": 0.8224018209837964,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "truth",
+              "score": 1.5860838880290768,
+              "S_tok": 0.42741849843839796,
+              "parts": {
+                "hybrid": 0.8160838880290768,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "neural",
+              "score": 1.3338918615732693,
+              "S_tok": 0.5092728171683508,
+              "parts": {
+                "hybrid": 0.8138918615732693,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "flow",
+              "score": 1.0416335569445307,
+              "S_tok": 0.3131232690412093,
+              "parts": {
+                "hybrid": 0.8216335569445308,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.8224018209837964,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 8,
+          "role": "seal",
+          "prefer": [
+            "consciousness",
+            "consensus",
+            "neural"
+          ],
+          "token": "neural",
+          "D_eff": 13.918941164688617,
+          "domain": "neural",
+          "top": [
+            {
+              "token": "neural",
+              "score": 2.054245284028679,
+              "S_tok": 0.509395776159067,
+              "parts": {
+                "hybrid": 0.9842452840286791,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "proto",
+              "score": 1.2082343191154947,
+              "S_tok": 0.3068476450342404,
+              "parts": {
+                "hybrid": 0.9882343191154948,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "energy",
+              "score": 1.2074981661964166,
+              "S_tok": 0.31206563510841245,
+              "parts": {
+                "hybrid": 0.9874981661964166,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "flow",
+              "score": 1.2074305503798632,
+              "S_tok": 0.3129753909944188,
+              "parts": {
+                "hybrid": 0.9874305503798633,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9842452840286791,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.0
+          }
+        }
+      ],
+      "phase": "structure",
+      "formula": "for role in slots[1..8]: argmax(score + role_prefer - filled_ban); fluent = template | skeleton + sparse free_bridge tissue"
+    },
+    {
+      "prompt": "medical signal measure",
+      "mode": "structured_slots_v4_bridges",
+      "domain": "medical",
+      "D_eff": 13.0,
+      "generated": "medical signal measure truth field consciousness diagnose consensus",
+      "sentence": "In the signal medical, in the field of phase cause, measures the truth with field, through the medium of form structure and in light of transfer, toward diagnose\u2014 consensus.",
+      "sentence_classic": "medical in signal does measure the truth with field via consciousness toward diagnose \u2014 consensus",
+      "sentence_template": "Inside this signal, medical measures the truth with field. That points to consensus.",
+      "sentence_fluent": "In the signal medical, in the field of phase cause, measures the truth with field, through the medium of form structure and in light of transfer, toward diagnose\u2014 consensus.",
+      "tokens": [
+        "medical",
+        "signal",
+        "measure",
+        "truth",
+        "field",
+        "consciousness",
+        "diagnose",
+        "consensus"
+      ],
+      "role_map": {
+        "subject": "medical",
+        "link": "signal",
+        "act": "measure",
+        "object": "truth",
+        "qual": "field",
+        "bridge": "consciousness",
+        "close": "diagnose",
+        "seal": "consensus"
+      },
+      "hybrid_extra": [
+        "phase",
+        "cause",
+        "domain",
+        "form",
+        "structure",
+        "language",
+        "transfer",
+        "seed",
+        "translate"
+      ],
+      "bridges": [
+        {
+          "left": "medical",
+          "right": "measure",
+          "phrase": "in the field of",
+          "tokens": [
+            "phase",
+            "cause",
+            "domain"
+          ],
+          "text": "in the field of phase cause",
+          "n": 3
+        },
+        {
+          "left": "measure",
+          "right": "truth",
+          "phrase": "through the medium of",
+          "tokens": [
+            "form",
+            "structure",
+            "language"
+          ],
+          "text": "through the medium of form structure",
+          "n": 3
+        },
+        {
+          "left": "truth",
+          "right": "diagnose",
+          "phrase": "in light of",
+          "tokens": [
+            "transfer",
+            "seed",
+            "translate"
+          ],
+          "text": "in light of transfer seed",
+          "n": 3
+        }
+      ],
+      "n_roles": 8,
+      "steps": [
+        {
+          "slot": 1,
+          "role": "subject",
+          "prefer": [
+            "clinical",
+            "medical",
+            "medicine",
+            "signal"
+          ],
+          "token": "medical",
+          "D_eff": 13.114640541689235,
+          "domain": "medical",
+          "top": [
+            {
+              "token": "medical",
+              "score": 2.0114451565200993,
+              "S_tok": 0.3216028889555082,
+              "parts": {
+                "hybrid": 0.7614451565200993,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "signal",
+              "score": 1.8142377648137835,
+              "S_tok": 0.3107782542714626,
+              "parts": {
+                "hybrid": 0.7442377648137835,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "measure",
+              "score": 1.5567392392193746,
+              "S_tok": 0.36159907808616587,
+              "parts": {
+                "hybrid": 0.8567392392193747,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.0762228841291055,
+              "S_tok": 0.33982054649106613,
+              "parts": {
+                "hybrid": 0.8562228841291055,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.7614451565200993,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 2,
+          "role": "link",
+          "prefer": [
+            "field",
+            "phase",
+            "signal",
+            "structure"
+          ],
+          "token": "signal",
+          "D_eff": 13.067756186370106,
+          "domain": "medical",
+          "top": [
+            {
+              "token": "signal",
+              "score": 1.835007124294834,
+              "S_tok": 0.3107283512554177,
+              "parts": {
+                "hybrid": 0.7650071242948339,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "field",
+              "score": 1.533978393001843,
+              "S_tok": 0.3129950097020921,
+              "parts": {
+                "hybrid": 0.7639783930018429,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.486123219144229,
+              "S_tok": 0.33978388591671865,
+              "parts": {
+                "hybrid": 0.7161232191442289,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "phase",
+              "score": 1.4628797598623136,
+              "S_tok": 0.3691937159292004,
+              "parts": {
+                "hybrid": 0.6928797598623134,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.7650071242948339,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.0
+          }
+        },
+        {
+          "slot": 3,
+          "role": "act",
+          "prefer": [
+            "diagnose",
+            "measure",
+            "observe",
+            "verify"
+          ],
+          "token": "measure",
+          "D_eff": 12.925405507673176,
+          "domain": "medical",
+          "top": [
+            {
+              "token": "measure",
+              "score": 2.036111401741392,
+              "S_tok": 0.3614911736646788,
+              "parts": {
+                "hybrid": 0.786111401741392,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "observe",
+              "score": 1.5636707080889345,
+              "S_tok": 0.3293384903412608,
+              "parts": {
+                "hybrid": 0.7936707080889345,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "verify",
+              "score": 1.5356312192929702,
+              "S_tok": 0.3186712206567423,
+              "parts": {
+                "hybrid": 0.7656312192929701,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "diagnose",
+              "score": 1.4912819408866897,
+              "S_tok": 0.30610622647942204,
+              "parts": {
+                "hybrid": 0.7212819408866896,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.786111401741392,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 4,
+          "role": "object",
+          "prefer": [
+            "disease",
+            "galactic",
+            "life",
+            "medicine",
+            "panel",
+            "protocol",
+            "resonance",
+            "scale",
+            "signal",
+            "structure",
+            "therapy",
+            "truth"
+          ],
+          "token": "truth",
+          "D_eff": 12.888156109142413,
+          "domain": "medical",
+          "top": [
+            {
+              "token": "truth",
+              "score": 1.4720157904199953,
+              "S_tok": 0.3120385785310781,
+              "parts": {
+                "hybrid": 0.7020157904199952,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.4285889053301422,
+              "S_tok": 0.33964341998006814,
+              "parts": {
+                "hybrid": 0.658588905330142,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "medicine",
+              "score": 0.9728983463196628,
+              "S_tok": 0.3172132796785611,
+              "parts": {
+                "hybrid": 0.7128983463196628,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "fsot",
+              "score": 0.9458160189477638,
+              "S_tok": 0.3095239707951742,
+              "parts": {
+                "hybrid": 0.7258160189477638,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.7020157904199952,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 5,
+          "role": "qual",
+          "prefer": [
+            "care",
+            "clinical",
+            "field",
+            "flux",
+            "interactive",
+            "measure",
+            "orbital",
+            "parameter",
+            "patient"
+          ],
+          "token": "field",
+          "D_eff": 13.008491215059982,
+          "domain": "medical",
+          "top": [
+            {
+              "token": "field",
+              "score": 1.5195770219927711,
+              "S_tok": 0.3129332269132579,
+              "parts": {
+                "hybrid": 0.749577021992771,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "parameter",
+              "score": 1.4513208690378092,
+              "S_tok": 0.3343453877078465,
+              "parts": {
+                "hybrid": 0.6813208690378092,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "trinary",
+              "score": 0.9825188589955525,
+              "S_tok": 0.3062251574525062,
+              "parts": {
+                "hybrid": 0.7625188589955524,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "domain",
+              "score": 0.9824807586533768,
+              "S_tok": 0.30698148530439445,
+              "parts": {
+                "hybrid": 0.7624807586533767,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.749577021992771,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 6,
+          "role": "bridge",
+          "prefer": [
+            "aspect",
+            "bridge",
+            "code",
+            "coherence",
+            "consciousness",
+            "coupling",
+            "neural",
+            "vital"
+          ],
+          "token": "consciousness",
+          "D_eff": 13.116862467546385,
+          "domain": "medical",
+          "top": [
+            {
+              "token": "consciousness",
+              "score": 1.7533782576563028,
+              "S_tok": 0.3699925827897803,
+              "parts": {
+                "hybrid": 0.9833782576563028,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "code",
+              "score": 1.702188440686898,
+              "S_tok": 0.3383899601994951,
+              "parts": {
+                "hybrid": 0.9321884406868979,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.208430123455819,
+              "S_tok": 0.33982228377366835,
+              "parts": {
+                "hybrid": 0.988430123455819,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "mind",
+              "score": 1.2051150797401087,
+              "S_tok": 0.35877210812419646,
+              "parts": {
+                "hybrid": 0.9851150797401087,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9833782576563028,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 7,
+          "role": "close",
+          "prefer": [
+            "diagnose",
+            "truth",
+            "verify"
+          ],
+          "token": "diagnose",
+          "D_eff": 13.06057819977415,
+          "domain": "medical",
+          "top": [
+            {
+              "token": "diagnose",
+              "score": 1.4485648985107282,
+              "S_tok": 0.30625599867368075,
+              "parts": {
+                "hybrid": 0.6785648985107282,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "verify",
+              "score": 1.4338477282696533,
+              "S_tok": 0.3188045017715553,
+              "parts": {
+                "hybrid": 0.6638477282696532,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "consensus",
+              "score": 0.9946763638678353,
+              "S_tok": 0.31166394952480014,
+              "parts": {
+                "hybrid": 0.6746763638678352,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "meaning",
+              "score": 0.9036068460257023,
+              "S_tok": 0.3083794211695439,
+              "parts": {
+                "hybrid": 0.6836068460257022,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.6785648985107282,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 8,
+          "role": "seal",
+          "prefer": [
+            "field",
+            "medical",
+            "signal"
+          ],
+          "token": "consensus",
+          "D_eff": 12.918941164688617,
+          "domain": "medical",
+          "top": [
+            {
+              "token": "consensus",
+              "score": 1.0618367695771245,
+              "S_tok": 0.3115144611616022,
+              "parts": {
+                "hybrid": 0.7418367695771244,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "trinary",
+              "score": 0.9894307091735486,
+              "S_tok": 0.30612595443235197,
+              "parts": {
+                "hybrid": 0.7694307091735486,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "domain",
+              "score": 0.9803706346501697,
+              "S_tok": 0.30688294046236597,
+              "parts": {
+                "hybrid": 0.7603706346501697,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "theory",
+              "score": 0.9798514580889504,
+              "S_tok": 0.3067895663719407,
+              "parts": {
+                "hybrid": 0.7598514580889503,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.7418367695771244,
+            "sign": 0.04,
+            "aff": 0.1,
+            "prior": 0.18
+          }
+        }
+      ],
+      "phase": "structure",
+      "formula": "for role in slots[1..8]: argmax(score + role_prefer - filled_ban); fluent = template | skeleton + sparse free_bridge tissue"
+    },
+    {
+      "prompt": "quantum measure collapse",
+      "mode": "structured_slots_v4_bridges",
+      "domain": "quantum",
+      "D_eff": 6.0,
+      "generated": "quantum measure collapse structure phase field verify consensus",
+      "sentence": "In the measure quantum, by way of truth diagnose, collapses the field with phase, as it meets start theory and across the domain of create, toward verify\u2014 consensus.",
+      "sentence_classic": "quantum in measure does collapse as structure with phase the field toward verify \u2014 consensus",
+      "sentence_template": "The quantum of the measure collapses field with phase. That points to consensus.",
+      "sentence_fluent": "In the measure quantum, by way of truth diagnose, collapses the field with phase, as it meets start theory and across the domain of create, toward verify\u2014 consensus.",
+      "tokens": [
+        "quantum",
+        "measure",
+        "collapse",
+        "structure",
+        "phase",
+        "field",
+        "verify",
+        "consensus"
+      ],
+      "role_map": {
+        "subject": "quantum",
+        "link": "measure",
+        "act": "collapse",
+        "state": "structure",
+        "qual": "phase",
+        "object": "field",
+        "close": "verify",
+        "seal": "consensus"
+      },
+      "hybrid_extra": [
+        "truth",
+        "diagnose",
+        "trinary",
+        "start",
+        "theory",
+        "domain",
+        "create",
+        "omni",
+        "therefore"
+      ],
+      "bridges": [
+        {
+          "left": "quantum",
+          "right": "collapse",
+          "phrase": "by way of",
+          "tokens": [
+            "truth",
+            "diagnose",
+            "trinary"
+          ],
+          "text": "by way of truth diagnose",
+          "n": 3
+        },
+        {
+          "left": "collapse",
+          "right": "field",
+          "phrase": "as it meets",
+          "tokens": [
+            "start",
+            "theory",
+            "domain"
+          ],
+          "text": "as it meets start theory",
+          "n": 3
+        },
+        {
+          "left": "field",
+          "right": "verify",
+          "phrase": "across the domain of",
+          "tokens": [
+            "create",
+            "omni",
+            "therefore"
+          ],
+          "text": "across the domain of create omni",
+          "n": 3
+        }
+      ],
+      "n_roles": 8,
+      "steps": [
+        {
+          "slot": 1,
+          "role": "subject",
+          "prefer": [
+            "field",
+            "nuclear",
+            "particle",
+            "quantum"
+          ],
+          "token": "quantum",
+          "D_eff": 6.114640541689234,
+          "domain": "quantum",
+          "top": [
+            {
+              "token": "quantum",
+              "score": 2.031973110139279,
+              "S_tok": 0.6313409898396929,
+              "parts": {
+                "hybrid": 0.9619731101392786,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "field",
+              "score": 1.7220442315279683,
+              "S_tok": 0.7764825550757837,
+              "parts": {
+                "hybrid": 0.9520442315279682,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "measure",
+              "score": 1.6812582316224611,
+              "S_tok": 0.35915785969724495,
+              "parts": {
+                "hybrid": 0.9812582316224612,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "collapse",
+              "score": 1.6733168206936302,
+              "S_tok": 0.6428827811903077,
+              "parts": {
+                "hybrid": 0.9733168206936302,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9619731101392786,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.0
+          }
+        },
+        {
+          "slot": 2,
+          "role": "link",
+          "prefer": [
+            "field",
+            "measure",
+            "phase",
+            "structure"
+          ],
+          "token": "measure",
+          "D_eff": 6.067756186370106,
+          "domain": "quantum",
+          "top": [
+            {
+              "token": "measure",
+              "score": 2.219595812282548,
+              "S_tok": 0.359167914136592,
+              "parts": {
+                "hybrid": 0.9695958122825477,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "field",
+              "score": 1.7574650160410892,
+              "S_tok": 0.7764238950635077,
+              "parts": {
+                "hybrid": 0.9874650160410892,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "phase",
+              "score": 1.7443300329107891,
+              "S_tok": 0.33595070176368064,
+              "parts": {
+                "hybrid": 0.9743300329107891,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.736611131911258,
+              "S_tok": 0.47128699310032507,
+              "parts": {
+                "hybrid": 0.966611131911258,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9695958122825477,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 3,
+          "role": "act",
+          "prefer": [
+            "collapse",
+            "measure",
+            "observe"
+          ],
+          "token": "collapse",
+          "D_eff": 5.925405507673176,
+          "domain": "quantum",
+          "top": [
+            {
+              "token": "collapse",
+              "score": 1.9296095652970275,
+              "S_tok": 0.6427102922613822,
+              "parts": {
+                "hybrid": 0.6796095652970275,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "observe",
+              "score": 1.4347125562965226,
+              "S_tok": 0.5571652630950427,
+              "parts": {
+                "hybrid": 0.6647125562965225,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "diagnose",
+              "score": 0.9424590475053631,
+              "S_tok": 0.9518509655852062,
+              "parts": {
+                "hybrid": 0.7224590475053632,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "trinary",
+              "score": 0.941535731973796,
+              "S_tok": 0.95064984637512,
+              "parts": {
+                "hybrid": 0.721535731973796,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.6796095652970275,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 4,
+          "role": "state",
+          "prefer": [
+            "structure",
+            "superposed",
+            "trinary"
+          ],
+          "token": "structure",
+          "D_eff": 5.888156109142413,
+          "domain": "quantum",
+          "top": [
+            {
+              "token": "structure",
+              "score": 1.752507958197784,
+              "S_tok": 0.4712462197551756,
+              "parts": {
+                "hybrid": 0.982507958197784,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "trinary",
+              "score": 1.6604192861105875,
+              "S_tok": 0.9505498853001387,
+              "parts": {
+                "hybrid": 0.8904192861105875,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "medical",
+              "score": 1.2153759224143759,
+              "S_tok": 0.6450270466012633,
+              "parts": {
+                "hybrid": 0.9953759224143759,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "phase",
+              "score": 1.2076429765263672,
+              "S_tok": 0.33601798829854174,
+              "parts": {
+                "hybrid": 0.9876429765263672,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.982507958197784,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 5,
+          "role": "qual",
+          "prefer": [
+            "coherence",
+            "consensus",
+            "coupling",
+            "depth",
+            "math",
+            "mechanics",
+            "panel",
+            "particle",
+            "phase",
+            "physics",
+            "resonance"
+          ],
+          "token": "phase",
+          "D_eff": 6.008491215059982,
+          "domain": "quantum",
+          "top": [
+            {
+              "token": "phase",
+              "score": 1.7653022569248797,
+              "S_tok": 0.3359703731423956,
+              "parts": {
+                "hybrid": 0.9953022569248797,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "consensus",
+              "score": 1.7571493632838517,
+              "S_tok": 0.8022653268729297,
+              "parts": {
+                "hybrid": 0.9871493632838517,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "consciousness",
+              "score": 1.2163433554633039,
+              "S_tok": 0.3339853609155885,
+              "parts": {
+                "hybrid": 0.9963433554633039,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "fluid",
+              "score": 1.2140289451986832,
+              "S_tok": 0.4992377013235038,
+              "parts": {
+                "hybrid": 0.9940289451986832,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9953022569248797,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 6,
+          "role": "object",
+          "prefer": [
+            "aspect",
+            "coherence",
+            "computing",
+            "field",
+            "materials",
+            "measure",
+            "nuclear",
+            "optics",
+            "seed"
+          ],
+          "token": "field",
+          "D_eff": 6.116862467546386,
+          "domain": "quantum",
+          "top": [
+            {
+              "token": "field",
+              "score": 1.4815390658151673,
+              "S_tok": 0.776485182529702,
+              "parts": {
+                "hybrid": 0.7115390658151672,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "seed",
+              "score": 1.4261632342615453,
+              "S_tok": 0.3657986423644591,
+              "parts": {
+                "hybrid": 0.6561632342615453,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "diagnose",
+              "score": 0.9549257812533798,
+              "S_tok": 0.9522670460907798,
+              "parts": {
+                "hybrid": 0.7349257812533797,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "trinary",
+              "score": 0.9542828624935564,
+              "S_tok": 0.951064986822862,
+              "parts": {
+                "hybrid": 0.7342828624935565,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.7115390658151672,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 7,
+          "role": "close",
+          "prefer": [
+            "seed",
+            "truth",
+            "verify"
+          ],
+          "token": "verify",
+          "D_eff": 6.060578199774151,
+          "domain": "quantum",
+          "top": [
+            {
+              "token": "verify",
+              "score": 1.6364315078848781,
+              "S_tok": 0.6820623127169919,
+              "parts": {
+                "hybrid": 0.866431507884878,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "truth",
+              "score": 1.633734735119938,
+              "S_tok": 0.791186844989644,
+              "parts": {
+                "hybrid": 0.8637347351199379,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "seed",
+              "score": 1.6110963319788556,
+              "S_tok": 0.3658094604517583,
+              "parts": {
+                "hybrid": 0.8410963319788556,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "proof",
+              "score": 1.0963857399914536,
+              "S_tok": 0.7793469340201367,
+              "parts": {
+                "hybrid": 0.8763857399914536,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.866431507884878,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 8,
+          "role": "seal",
+          "prefer": [
+            "consensus",
+            "quantum",
+            "trinary"
+          ],
+          "token": "consensus",
+          "D_eff": 5.918941164688618,
+          "domain": "quantum",
+          "top": [
+            {
+              "token": "consensus",
+              "score": 1.7618651334234363,
+              "S_tok": 0.802109229396271,
+              "parts": {
+                "hybrid": 0.9918651334234363,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "trinary",
+              "score": 1.6731415352116858,
+              "S_tok": 0.9506329662533313,
+              "parts": {
+                "hybrid": 0.9031415352116858,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "observe",
+              "score": 1.2129758056058806,
+              "S_tok": 0.5571609050599576,
+              "parts": {
+                "hybrid": 0.9929758056058806,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "phi",
+              "score": 1.212908607064826,
+              "S_tok": 0.5856021374996553,
+              "parts": {
+                "hybrid": 0.9929086070648261,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9918651334234363,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        }
+      ],
+      "phase": "structure",
+      "formula": "for role in slots[1..8]: argmax(score + role_prefer - filled_ban); fluent = template | skeleton + sparse free_bridge tissue"
+    },
+    {
+      "prompt": "sky earth time create",
+      "mode": "structured_slots_v4_bridges",
+      "domain": "mythological",
+      "D_eff": 21.0,
+      "generated": "earth field create form structure truth time spacetime",
+      "sentence": "On create, in the field earth, within the structure of transfer translate, creates the form with structure, by way of trinary consensus and as it meets domain, toward time\u2014 spacetime.",
+      "sentence_classic": "earth in field does create the form with structure via truth toward time \u2014 spacetime",
+      "sentence_template": "The earth of the field creates form with structure. That points to spacetime.",
+      "sentence_fluent": "On create, in the field earth, within the structure of transfer translate, creates the form with structure, by way of trinary consensus and as it meets domain, toward time\u2014 spacetime.",
+      "tokens": [
+        "earth",
+        "field",
+        "create",
+        "form",
+        "structure",
+        "truth",
+        "time",
+        "spacetime"
+      ],
+      "role_map": {
+        "subject": "earth",
+        "link": "field",
+        "act": "create",
+        "object": "form",
+        "qual": "structure",
+        "bridge": "truth",
+        "close": "time",
+        "seal": "spacetime"
+      },
+      "hybrid_extra": [
+        "transfer",
+        "translate",
+        "diagnose",
+        "trinary",
+        "consensus",
+        "consciousness",
+        "domain",
+        "universal",
+        "effect"
+      ],
+      "bridges": [
+        {
+          "left": "earth",
+          "right": "create",
+          "phrase": "within the structure of",
+          "tokens": [
+            "transfer",
+            "translate",
+            "diagnose"
+          ],
+          "text": "within the structure of transfer translate",
+          "n": 3
+        },
+        {
+          "left": "create",
+          "right": "form",
+          "phrase": "by way of",
+          "tokens": [
+            "trinary",
+            "consensus",
+            "consciousness"
+          ],
+          "text": "by way of trinary consensus",
+          "n": 3
+        },
+        {
+          "left": "form",
+          "right": "time",
+          "phrase": "as it meets",
+          "tokens": [
+            "domain",
+            "universal",
+            "effect"
+          ],
+          "text": "as it meets domain universal",
+          "n": 3
+        }
+      ],
+      "n_roles": 8,
+      "steps": [
+        {
+          "slot": 1,
+          "role": "subject",
+          "prefer": [
+            "earth",
+            "king",
+            "sky",
+            "time",
+            "water"
+          ],
+          "token": "earth",
+          "D_eff": 21.114640541689234,
+          "domain": "mythological",
+          "top": [
+            {
+              "token": "earth",
+              "score": 2.04898948702209,
+              "S_tok": 0.5570679521898436,
+              "parts": {
+                "hybrid": 0.9789894870220897,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "time",
+              "score": 2.0416823785578035,
+              "S_tok": 0.40955093344971527,
+              "parts": {
+                "hybrid": 0.9716823785578033,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "create",
+              "score": 1.5586854214702326,
+              "S_tok": 0.8816774366959087,
+              "parts": {
+                "hybrid": 0.8586854214702326,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "spacetime",
+              "score": 1.2894528554284503,
+              "S_tok": 0.4079242432744008,
+              "parts": {
+                "hybrid": 0.9694528554284503,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9789894870220897,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.0
+          }
+        },
+        {
+          "slot": 2,
+          "role": "link",
+          "prefer": [
+            "field",
+            "flow",
+            "form",
+            "phase"
+          ],
+          "token": "field",
+          "D_eff": 21.067756186370104,
+          "domain": "mythological",
+          "top": [
+            {
+              "token": "field",
+              "score": 1.4666282507390993,
+              "S_tok": 0.7356984396812929,
+              "parts": {
+                "hybrid": 0.6966282507390992,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "flow",
+              "score": 1.4321721400998122,
+              "S_tok": 0.42258310813487515,
+              "parts": {
+                "hybrid": 0.6621721400998122,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "phase",
+              "score": 1.4292570617793918,
+              "S_tok": 0.3455856030118213,
+              "parts": {
+                "hybrid": 0.6592570617793917,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "form",
+              "score": 1.426481026750224,
+              "S_tok": 0.3506595353309436,
+              "parts": {
+                "hybrid": 0.6564810267502238,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.6966282507390992,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 3,
+          "role": "act",
+          "prefer": [
+            "create",
+            "flow",
+            "form",
+            "measure"
+          ],
+          "token": "create",
+          "D_eff": 20.925405507673176,
+          "domain": "mythological",
+          "top": [
+            {
+              "token": "create",
+              "score": 2.0865289547267207,
+              "S_tok": 0.8824391384914814,
+              "parts": {
+                "hybrid": 0.8365289547267205,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "flow",
+              "score": 1.7527273701815451,
+              "S_tok": 0.4225860411943655,
+              "parts": {
+                "hybrid": 0.9827273701815451,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "form",
+              "score": 1.7517573394472823,
+              "S_tok": 0.35057313486395786,
+              "parts": {
+                "hybrid": 0.9817573394472823,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "measure",
+              "score": 1.7505568388208241,
+              "S_tok": 0.36608117339079194,
+              "parts": {
+                "hybrid": 0.9805568388208241,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.8365289547267205,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 4,
+          "role": "object",
+          "prefer": [
+            "form",
+            "god",
+            "king",
+            "law",
+            "tablet",
+            "water"
+          ],
+          "token": "form",
+          "D_eff": 20.88815610914241,
+          "domain": "mythological",
+          "top": [
+            {
+              "token": "form",
+              "score": 1.7373229304101772,
+              "S_tok": 0.3505504647478976,
+              "parts": {
+                "hybrid": 0.9673229304101771,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "time",
+              "score": 1.4902037692993906,
+              "S_tok": 0.40952984082973276,
+              "parts": {
+                "hybrid": 0.9702037692993906,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "spacetime",
+              "score": 1.2880126508673768,
+              "S_tok": 0.40789993520848256,
+              "parts": {
+                "hybrid": 0.9680126508673768,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "truth",
+              "score": 1.2022867151040786,
+              "S_tok": 0.7492974660988039,
+              "parts": {
+                "hybrid": 0.9822867151040786,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9673229304101771,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 5,
+          "role": "qual",
+          "prefer": [
+            "judgment",
+            "life",
+            "structure",
+            "water"
+          ],
+          "token": "structure",
+          "D_eff": 21.008491215059983,
+          "domain": "mythological",
+          "top": [
+            {
+              "token": "structure",
+              "score": 1.4347804449536565,
+              "S_tok": 0.4654719294297258,
+              "parts": {
+                "hybrid": 0.6647804449536565,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "time",
+              "score": 1.2052609486499242,
+              "S_tok": 0.40954106567978454,
+              "parts": {
+                "hybrid": 0.685260948649924,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "spacetime",
+              "score": 1.0026694701924692,
+              "S_tok": 0.40791287122094605,
+              "parts": {
+                "hybrid": 0.6826694701924692,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "diagnose",
+              "score": 0.960982826383362,
+              "S_tok": 0.8915992808049217,
+              "parts": {
+                "hybrid": 0.740982826383362,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.6647804449536565,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 6,
+          "role": "bridge",
+          "prefer": [
+            "earth",
+            "language",
+            "meaning",
+            "truth"
+          ],
+          "token": "truth",
+          "D_eff": 21.116862467546387,
+          "domain": "mythological",
+          "top": [
+            {
+              "token": "truth",
+              "score": 1.6372805518094558,
+              "S_tok": 0.7486419248628651,
+              "parts": {
+                "hybrid": 0.8672805518094557,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "language",
+              "score": 1.6315687614424448,
+              "S_tok": 0.6618533630760548,
+              "parts": {
+                "hybrid": 0.8615687614424448,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "meaning",
+              "score": 1.5931570574507496,
+              "S_tok": 0.8270446742744995,
+              "parts": {
+                "hybrid": 0.8231570574507496,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "time",
+              "score": 1.3912659762640063,
+              "S_tok": 0.4095511396643464,
+              "parts": {
+                "hybrid": 0.8712659762640063,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.8672805518094557,
+            "sign": 0.04,
+            "aff": 0.0,
+            "prior": 0.18
+          }
+        },
+        {
+          "slot": 7,
+          "role": "close",
+          "prefer": [
+            "form",
+            "life",
+            "truth"
+          ],
+          "token": "time",
+          "D_eff": 21.06057819977415,
+          "domain": "mythological",
+          "top": [
+            {
+              "token": "time",
+              "score": 1.4981950295893454,
+              "S_tok": 0.40954591170668975,
+              "parts": {
+                "hybrid": 0.9781950295893453,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.0
+              }
+            },
+            {
+              "token": "spacetime",
+              "score": 1.297414743280206,
+              "S_tok": 0.4079184559961685,
+              "parts": {
+                "hybrid": 0.9774147432802058,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "transfer",
+              "score": 1.2072410465637708,
+              "S_tok": 0.39176870934385005,
+              "parts": {
+                "hybrid": 0.9872410465637709,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "collapse",
+              "score": 1.2052101195352711,
+              "S_tok": 0.6174052548689447,
+              "parts": {
+                "hybrid": 0.9852101195352712,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.9781950295893453,
+            "sign": 0.04,
+            "aff": 0.28,
+            "prior": 0.0
+          }
+        },
+        {
+          "slot": 8,
+          "role": "seal",
+          "prefer": [
+            "create",
+            "earth",
+            "sky"
+          ],
+          "token": "spacetime",
+          "D_eff": 20.91894116468862,
+          "domain": "mythological",
+          "top": [
+            {
+              "token": "spacetime",
+              "score": 1.0191784180144055,
+              "S_tok": 0.407903249076189,
+              "parts": {
+                "hybrid": 0.6991784180144054,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "diagnose",
+              "score": 0.9665923175245648,
+              "S_tok": 0.8919677705248128,
+              "parts": {
+                "hybrid": 0.7465923175245648,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "trinary",
+              "score": 0.9659360563029862,
+              "S_tok": 0.8909019464456674,
+              "parts": {
+                "hybrid": 0.7459360563029862,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "domain",
+              "score": 0.9625705299665621,
+              "S_tok": 0.8646242881728583,
+              "parts": {
+                "hybrid": 0.7425705299665621,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ],
+          "score_parts": {
+            "hybrid": 0.6991784180144054,
+            "sign": 0.04,
+            "aff": 0.1,
+            "prior": 0.18
+          }
+        }
+      ],
+      "phase": "structure",
+      "formula": "for role in slots[1..8]: argmax(score + role_prefer - filled_ban); fluent = template | skeleton + sparse free_bridge tissue"
+    }
+  ],
+  "free_generations": [
+    {
+      "prompt": "fsot scalar seed domain",
+      "generated": "domain fsot scalar seed phase create effect form",
+      "tokens": [
+        "domain",
+        "fsot",
+        "scalar",
+        "seed",
+        "phase",
+        "create",
+        "effect",
+        "form"
+      ],
+      "domain": "linguistic",
+      "steps": [
+        {
+          "step": 1,
+          "next": "domain",
+          "domain": "linguistic",
+          "D_eff": 16.143300677111544,
+          "banned": [
+            "domain"
+          ],
+          "top": [
+            {
+              "token": "domain",
+              "score": 1.6438005034289338,
+              "S_tok": 0.6819313240121023,
+              "parts": {
+                "hybrid": 0.9938005034289339,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "fsot",
+              "score": 1.637108567122488,
+              "S_tok": 0.6200715280602737,
+              "parts": {
+                "hybrid": 0.987108567122488,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "scalar",
+              "score": 1.6358566847287883,
+              "S_tok": 0.6247677774324183,
+              "parts": {
+                "hybrid": 0.9858566847287882,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "next": "fsot",
+          "domain": "linguistic",
+          "D_eff": 16.084695232962634,
+          "banned": [
+            "domain",
+            "fsot"
+          ],
+          "top": [
+            {
+              "token": "fsot",
+              "score": 1.282894705029872,
+              "S_tok": 0.5563960188311531,
+              "parts": {
+                "hybrid": 0.6328947050298721,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "scalar",
+              "score": 1.2814862545878691,
+              "S_tok": 0.5605239011044109,
+              "parts": {
+                "hybrid": 0.6314862545878692,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "seed",
+              "score": 1.276917739144503,
+              "S_tok": 0.3171183178080293,
+              "parts": {
+                "hybrid": 0.6269177391445029,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "next": "scalar",
+          "domain": "linguistic",
+          "D_eff": 15.90675688459147,
+          "banned": [
+            "domain",
+            "fsot",
+            "scalar"
+          ],
+          "top": [
+            {
+              "token": "scalar",
+              "score": 1.6378961380962194,
+              "S_tok": 0.5066651432068382,
+              "parts": {
+                "hybrid": 0.9878961380962195,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "seed",
+              "score": 1.633386201081997,
+              "S_tok": 0.31159537025159917,
+              "parts": {
+                "hybrid": 0.9833862010819971,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "flow",
+              "score": 1.3634884616422096,
+              "S_tok": 0.32382031230487035,
+              "parts": {
+                "hybrid": 0.9934884616422095,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "next": "seed",
+          "domain": "linguistic",
+          "D_eff": 15.860195136428016,
+          "banned": [
+            "domain",
+            "fsot",
+            "scalar",
+            "seed"
+          ],
+          "top": [
+            {
+              "token": "seed",
+              "score": 1.636544646458133,
+              "S_tok": 0.3182742935206393,
+              "parts": {
+                "hybrid": 0.9865446464581329,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "phase",
+              "score": 1.3627677945263517,
+              "S_tok": 0.31069735554339273,
+              "parts": {
+                "hybrid": 0.9927677945263518,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "flow",
+              "score": 1.3621923892540955,
+              "S_tok": 0.3382689920808917,
+              "parts": {
+                "hybrid": 0.9921923892540956,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "next": "phase",
+          "domain": "linguistic",
+          "D_eff": 16.010614018824977,
+          "banned": [
+            "domain",
+            "fsot",
+            "scalar",
+            "seed",
+            "phase"
+          ],
+          "top": [
+            {
+              "token": "phase",
+              "score": 1.0583338784987193,
+              "S_tok": 0.3145111931267058,
+              "parts": {
+                "hybrid": 0.6883338784987193,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "effect",
+              "score": 1.054481826858596,
+              "S_tok": 0.6295367047639044,
+              "parts": {
+                "hybrid": 0.684481826858596,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "diagnose",
+              "score": 1.0539772189106977,
+              "S_tok": 0.7083883436186901,
+              "parts": {
+                "hybrid": 0.6839772189106977,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "next": "create",
+          "domain": "linguistic",
+          "D_eff": 16.146078084432983,
+          "banned": [
+            "fsot",
+            "scalar",
+            "seed",
+            "phase",
+            "create"
+          ],
+          "top": [
+            {
+              "token": "create",
+              "score": 1.1185203353905426,
+              "S_tok": 0.6146775015400926,
+              "parts": {
+                "hybrid": 0.7485203353905426,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "diagnose",
+              "score": 1.118183412248036,
+              "S_tok": 0.6232963185516966,
+              "parts": {
+                "hybrid": 0.7481834122480361,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "effect",
+              "score": 1.118075265755076,
+              "S_tok": 0.5542835976504709,
+              "parts": {
+                "hybrid": 0.7480752657550761,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "next": "effect",
+          "domain": "linguistic",
+          "D_eff": 16.075722749717688,
+          "banned": [
+            "scalar",
+            "seed",
+            "phase",
+            "create",
+            "effect"
+          ],
+          "top": [
+            {
+              "token": "effect",
+              "score": 1.3611263322343965,
+              "S_tok": 0.5127699490806388,
+              "parts": {
+                "hybrid": 0.9911263322343964,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "verify",
+              "score": 1.3610698646275674,
+              "S_tok": 0.4201466193542192,
+              "parts": {
+                "hybrid": 0.9910698646275673,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "meaning",
+              "score": 1.3608338763434,
+              "S_tok": 0.5257144837686657,
+              "parts": {
+                "hybrid": 0.9908338763433999,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "next": "form",
+          "domain": "linguistic",
+          "D_eff": 15.898676455860771,
+          "banned": [
+            "seed",
+            "phase",
+            "create",
+            "effect",
+            "form"
+          ],
+          "top": [
+            {
+              "token": "form",
+              "score": 1.0636044869469383,
+              "S_tok": 0.3127401334430506,
+              "parts": {
+                "hybrid": 0.6936044869469383,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "meaning",
+              "score": 1.0630935432134958,
+              "S_tok": 0.6040155710066513,
+              "parts": {
+                "hybrid": 0.6930935432134957,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "start",
+              "score": 1.0595138605377925,
+              "S_tok": 0.5556810919089645,
+              "parts": {
+                "hybrid": 0.6895138605377926,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "proto fluid communicate",
+      "generated": "communicate proto fluid create phase effect start action",
+      "tokens": [
+        "communicate",
+        "proto",
+        "fluid",
+        "create",
+        "phase",
+        "effect",
+        "start",
+        "action"
+      ],
+      "domain": "linguistic",
+      "steps": [
+        {
+          "step": 1,
+          "next": "communicate",
+          "domain": "linguistic",
+          "D_eff": 16.143300677111544,
+          "banned": [
+            "communicate"
+          ],
+          "top": [
+            {
+              "token": "communicate",
+              "score": 1.6429201482686295,
+              "S_tok": 0.4391983630531606,
+              "parts": {
+                "hybrid": 0.9929201482686296,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "fluid",
+              "score": 1.6325482275636585,
+              "S_tok": 0.392889384756323,
+              "parts": {
+                "hybrid": 0.9825482275636586,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "proto",
+              "score": 1.6268412004027435,
+              "S_tok": 0.3280146085246772,
+              "parts": {
+                "hybrid": 0.9768412004027434,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "next": "proto",
+          "domain": "linguistic",
+          "D_eff": 16.084695232962634,
+          "banned": [
+            "communicate",
+            "proto"
+          ],
+          "top": [
+            {
+              "token": "proto",
+              "score": 1.637985774348731,
+              "S_tok": 0.3183487254091379,
+              "parts": {
+                "hybrid": 0.987985774348731,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "fluid",
+              "score": 1.6322317074438462,
+              "S_tok": 0.3664492648283464,
+              "parts": {
+                "hybrid": 0.982231707443846,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "phase",
+              "score": 1.3629429235614121,
+              "S_tok": 0.3103495841746922,
+              "parts": {
+                "hybrid": 0.992942923561412,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "next": "fluid",
+          "domain": "linguistic",
+          "D_eff": 15.90675688459147,
+          "banned": [
+            "communicate",
+            "proto",
+            "fluid"
+          ],
+          "top": [
+            {
+              "token": "fluid",
+              "score": 1.2962972202108145,
+              "S_tok": 0.3466106137803864,
+              "parts": {
+                "hybrid": 0.6462972202108143,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "phase",
+              "score": 1.0464128709220597,
+              "S_tok": 0.3085154937394512,
+              "parts": {
+                "hybrid": 0.6764128709220597,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "effect",
+              "score": 1.0433975699569045,
+              "S_tok": 0.5109595353417629,
+              "parts": {
+                "hybrid": 0.6733975699569046,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "next": "create",
+          "domain": "linguistic",
+          "D_eff": 15.860195136428016,
+          "banned": [
+            "communicate",
+            "proto",
+            "fluid",
+            "create"
+          ],
+          "top": [
+            {
+              "token": "create",
+              "score": 1.3565977992663658,
+              "S_tok": 0.6406833207056948,
+              "parts": {
+                "hybrid": 0.9865977992663657,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "phase",
+              "score": 1.3553975057578098,
+              "S_tok": 0.31069735554339273,
+              "parts": {
+                "hybrid": 0.9853975057578097,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.3546473843296387,
+              "S_tok": 0.35827962355093973,
+              "parts": {
+                "hybrid": 0.9846473843296388,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "next": "phase",
+          "domain": "linguistic",
+          "D_eff": 16.010614018824977,
+          "banned": [
+            "communicate",
+            "proto",
+            "fluid",
+            "create",
+            "phase"
+          ],
+          "top": [
+            {
+              "token": "phase",
+              "score": 1.3614018365512517,
+              "S_tok": 0.3145111931267058,
+              "parts": {
+                "hybrid": 0.9914018365512518,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "effect",
+              "score": 1.357452018435478,
+              "S_tok": 0.6295367047639044,
+              "parts": {
+                "hybrid": 0.9874520184354778,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "meaning",
+              "score": 1.356698579012797,
+              "S_tok": 0.6463133955332283,
+              "parts": {
+                "hybrid": 0.9866985790127969,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "next": "effect",
+          "domain": "linguistic",
+          "D_eff": 16.146078084432983,
+          "banned": [
+            "proto",
+            "fluid",
+            "create",
+            "phase",
+            "effect"
+          ],
+          "top": [
+            {
+              "token": "effect",
+              "score": 1.068435385199195,
+              "S_tok": 0.5542835976504709,
+              "parts": {
+                "hybrid": 0.698435385199195,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "diagnose",
+              "score": 1.0680184413909157,
+              "S_tok": 0.6232963185516966,
+              "parts": {
+                "hybrid": 0.6980184413909156,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "trinary",
+              "score": 1.0675585765871085,
+              "S_tok": 0.6223183909268798,
+              "parts": {
+                "hybrid": 0.6975585765871085,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "next": "start",
+          "domain": "linguistic",
+          "D_eff": 16.075722749717688,
+          "banned": [
+            "fluid",
+            "create",
+            "phase",
+            "effect",
+            "start"
+          ],
+          "top": [
+            {
+              "token": "start",
+              "score": 1.1931308190987506,
+              "S_tok": 0.48595373827820393,
+              "parts": {
+                "hybrid": 0.8231308190987505,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "form",
+              "score": 1.1921709715810795,
+              "S_tok": 0.30903142762353364,
+              "parts": {
+                "hybrid": 0.8221709715810797,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "scalar",
+              "score": 1.191330367569329,
+              "S_tok": 0.5084563481219733,
+              "parts": {
+                "hybrid": 0.8213303675693289,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "next": "action",
+          "domain": "linguistic",
+          "D_eff": 15.898676455860771,
+          "banned": [
+            "create",
+            "phase",
+            "effect",
+            "start",
+            "action"
+          ],
+          "top": [
+            {
+              "token": "action",
+              "score": 1.3618509382825494,
+              "S_tok": 0.5251806435250199,
+              "parts": {
+                "hybrid": 0.9918509382825496,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "form",
+              "score": 1.3605553382089455,
+              "S_tok": 0.3127401334430506,
+              "parts": {
+                "hybrid": 0.9905553382089456,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            },
+            {
+              "token": "fsot",
+              "score": 1.360400937115358,
+              "S_tok": 0.578833103890525,
+              "parts": {
+                "hybrid": 0.9904009371153581,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "neural consciousness observe",
+      "generated": "observe consciousness consensus euler phase form mind proto",
+      "tokens": [
+        "observe",
+        "consciousness",
+        "consensus",
+        "euler",
+        "phase",
+        "form",
+        "mind",
+        "proto"
+      ],
+      "domain": "neural",
+      "steps": [
+        {
+          "step": 1,
+          "next": "observe",
+          "domain": "neural",
+          "D_eff": 14.143300677111544,
+          "banned": [
+            "observe"
+          ],
+          "top": [
+            {
+              "token": "observe",
+              "score": 1.551344466510324,
+              "S_tok": 0.3660890826719479,
+              "parts": {
+                "hybrid": 0.9313444665103239,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "consciousness",
+              "score": 1.5098468872858217,
+              "S_tok": 0.3065379170528704,
+              "parts": {
+                "hybrid": 0.889846887285822,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "consensus",
+              "score": 1.35639243811785,
+              "S_tok": 0.4794810771341576,
+              "parts": {
+                "hybrid": 0.9163924381178499,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "next": "consciousness",
+          "domain": "neural",
+          "D_eff": 14.084695232962632,
+          "banned": [
+            "observe",
+            "consciousness"
+          ],
+          "top": [
+            {
+              "token": "consciousness",
+              "score": 1.6165894339001294,
+              "S_tok": 0.30738245041355317,
+              "parts": {
+                "hybrid": 0.9965894339001296,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "consensus",
+              "score": 1.418159955819096,
+              "S_tok": 0.43033268584751183,
+              "parts": {
+                "hybrid": 0.9781599558190961,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "phase",
+              "score": 1.336438176321784,
+              "S_tok": 0.3071832750161833,
+              "parts": {
+                "hybrid": 0.9964381763217842,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "next": "consensus",
+          "domain": "neural",
+          "D_eff": 13.90675688459147,
+          "banned": [
+            "observe",
+            "consciousness",
+            "consensus"
+          ],
+          "top": [
+            {
+              "token": "consensus",
+              "score": 1.1234903430480658,
+              "S_tok": 0.39224343086835955,
+              "parts": {
+                "hybrid": 0.6834903430480658,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "phase",
+              "score": 1.0780052833083822,
+              "S_tok": 0.30977458891101384,
+              "parts": {
+                "hybrid": 0.7380052833083821,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "form",
+              "score": 1.0706101215708408,
+              "S_tok": 0.30881388760924167,
+              "parts": {
+                "hybrid": 0.7306101215708406,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "next": "euler",
+          "domain": "neural",
+          "D_eff": 13.860195136428016,
+          "banned": [
+            "observe",
+            "consciousness",
+            "consensus",
+            "euler"
+          ],
+          "top": [
+            {
+              "token": "euler",
+              "score": 1.3276000578424667,
+              "S_tok": 0.4287665254566193,
+              "parts": {
+                "hybrid": 0.9876000578424668,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "proof",
+              "score": 1.3266638517329445,
+              "S_tok": 0.4281890678005116,
+              "parts": {
+                "hybrid": 0.9866638517329447,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "field",
+              "score": 1.3228910461337997,
+              "S_tok": 0.42688145171342734,
+              "parts": {
+                "hybrid": 0.9828910461337996,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "next": "phase",
+          "domain": "neural",
+          "D_eff": 14.010614018824977,
+          "banned": [
+            "observe",
+            "consciousness",
+            "consensus",
+            "euler",
+            "phase"
+          ],
+          "top": [
+            {
+              "token": "phase",
+              "score": 1.334412698244253,
+              "S_tok": 0.3064327451063888,
+              "parts": {
+                "hybrid": 0.9944126982442532,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "proof",
+              "score": 1.334010601179215,
+              "S_tok": 0.46617641535737264,
+              "parts": {
+                "hybrid": 0.9940106011792151,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "seed",
+              "score": 1.3316756049435066,
+              "S_tok": 0.30948721896546,
+              "parts": {
+                "hybrid": 0.9916756049435067,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "next": "form",
+          "domain": "neural",
+          "D_eff": 14.146078084432983,
+          "banned": [
+            "consciousness",
+            "consensus",
+            "euler",
+            "phase",
+            "form"
+          ],
+          "top": [
+            {
+              "token": "form",
+              "score": 1.032556083472537,
+              "S_tok": 0.30709912654856575,
+              "parts": {
+                "hybrid": 0.6925560834725368,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "measure",
+              "score": 1.0204738233495663,
+              "S_tok": 0.30651621917795263,
+              "parts": {
+                "hybrid": 0.6804738233495664,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "seed",
+              "score": 1.0167711558442059,
+              "S_tok": 0.3066090235972199,
+              "parts": {
+                "hybrid": 0.6767711558442059,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "next": "mind",
+          "domain": "neural",
+          "D_eff": 14.075722749717688,
+          "banned": [
+            "consensus",
+            "euler",
+            "phase",
+            "form",
+            "mind"
+          ],
+          "top": [
+            {
+              "token": "mind",
+              "score": 1.2378289620131464,
+              "S_tok": 0.30660863802084243,
+              "parts": {
+                "hybrid": 0.8978289620131465,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "seed",
+              "score": 1.2378113870094953,
+              "S_tok": 0.30674617576960805,
+              "parts": {
+                "hybrid": 0.8978113870094955,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "proto",
+              "score": 1.2374394321015592,
+              "S_tok": 0.3065909066691725,
+              "parts": {
+                "hybrid": 0.8974394321015593,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "next": "proto",
+          "domain": "neural",
+          "D_eff": 13.898676455860771,
+          "banned": [
+            "euler",
+            "phase",
+            "form",
+            "mind",
+            "proto"
+          ],
+          "top": [
+            {
+              "token": "proto",
+              "score": 1.3387042436266685,
+              "S_tok": 0.3075829424032793,
+              "parts": {
+                "hybrid": 0.9987042436266684,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "spacetime",
+              "score": 1.3332470960304876,
+              "S_tok": 0.3124484495696228,
+              "parts": {
+                "hybrid": 0.9932470960304878,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "therefore",
+              "score": 1.3310753887150586,
+              "S_tok": 0.42661421974939967,
+              "parts": {
+                "hybrid": 0.9910753887150587,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": "medical signal measure",
+      "generated": "measure medical consciousness consensus diagnose verify theory domain",
+      "tokens": [
+        "measure",
+        "medical",
+        "consciousness",
+        "consensus",
+        "diagnose",
+        "verify",
+        "theory",
+        "domain"
+      ],
+      "domain": "medical",
+      "steps": [
+        {
+          "step": 1,
+          "next": "measure",
+          "domain": "medical",
+          "D_eff": 13.143300677111544,
+          "banned": [
+            "measure"
+          ],
+          "top": [
+            {
+              "token": "measure",
+              "score": 1.4767392392193748,
+              "S_tok": 0.3469857938038669,
+              "parts": {
+                "hybrid": 0.8567392392193747,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "medical",
+              "score": 1.381445156520099,
+              "S_tok": 0.3110682317437303,
+              "parts": {
+                "hybrid": 0.7614451565200991,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.1962228841291056,
+              "S_tok": 0.32600155069686565,
+              "parts": {
+                "hybrid": 0.8562228841291055,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "next": "medical",
+          "domain": "medical",
+          "D_eff": 13.084695232962632,
+          "banned": [
+            "measure",
+            "medical"
+          ],
+          "top": [
+            {
+              "token": "medical",
+              "score": 1.378667847522828,
+              "S_tok": 0.3221987992433084,
+              "parts": {
+                "hybrid": 0.758667847522828,
+                "sign": 0.04,
+                "aff": 0.28,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.331397550946746,
+              "S_tok": 0.340528291674261,
+              "parts": {
+                "hybrid": 0.9913975509467461,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "consciousness",
+              "score": 1.32585097601251,
+              "S_tok": 0.3706959930554163,
+              "parts": {
+                "hybrid": 0.98585097601251,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "next": "consciousness",
+          "domain": "medical",
+          "D_eff": 12.90675688459147,
+          "banned": [
+            "measure",
+            "medical",
+            "consciousness"
+          ],
+          "top": [
+            {
+              "token": "consciousness",
+              "score": 1.3255934656081485,
+              "S_tok": 0.38571494905443043,
+              "parts": {
+                "hybrid": 0.9855934656081486,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "phase",
+              "score": 1.3248793196158766,
+              "S_tok": 0.3849909583750647,
+              "parts": {
+                "hybrid": 0.9848793196158767,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "form",
+              "score": 1.3192973877745175,
+              "S_tok": 0.3830196100612434,
+              "parts": {
+                "hybrid": 0.9792973877745177,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "next": "consensus",
+          "domain": "medical",
+          "D_eff": 12.860195136428016,
+          "banned": [
+            "measure",
+            "medical",
+            "consciousness",
+            "consensus"
+          ],
+          "top": [
+            {
+              "token": "consensus",
+              "score": 1.1569576348062913,
+              "S_tok": 0.3101769017071743,
+              "parts": {
+                "hybrid": 0.7169576348062915,
+                "sign": 0.04,
+                "aff": 0.1,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "structure",
+              "score": 1.1114925591086275,
+              "S_tok": 0.337470248819854,
+              "parts": {
+                "hybrid": 0.7714925591086276,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "phase",
+              "score": 1.1113713050609517,
+              "S_tok": 0.36694868849563617,
+              "parts": {
+                "hybrid": 0.7713713050609519,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "next": "diagnose",
+          "domain": "medical",
+          "D_eff": 13.010614018824977,
+          "banned": [
+            "measure",
+            "medical",
+            "consciousness",
+            "consensus",
+            "diagnose"
+          ],
+          "top": [
+            {
+              "token": "diagnose",
+              "score": 1.1059968517464762,
+              "S_tok": 0.30658541832484043,
+              "parts": {
+                "hybrid": 0.7659968517464761,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "trinary",
+              "score": 1.1058624802189687,
+              "S_tok": 0.30654885750171296,
+              "parts": {
+                "hybrid": 0.7658624802189689,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "create",
+              "score": 1.1055987321774539,
+              "S_tok": 0.3062799697690594,
+              "parts": {
+                "hybrid": 0.7655987321774537,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "next": "verify",
+          "domain": "medical",
+          "D_eff": 13.146078084432983,
+          "banned": [
+            "medical",
+            "consciousness",
+            "consensus",
+            "diagnose",
+            "verify"
+          ],
+          "top": [
+            {
+              "token": "verify",
+              "score": 1.1093297529921853,
+              "S_tok": 0.32193368042343706,
+              "parts": {
+                "hybrid": 0.7693297529921853,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "collapse",
+              "score": 1.1051223142530153,
+              "S_tok": 0.3250284750572851,
+              "parts": {
+                "hybrid": 0.7651223142530154,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "language",
+              "score": 1.1041911745422195,
+              "S_tok": 0.32111331987639247,
+              "parts": {
+                "hybrid": 0.7641911745422195,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "next": "theory",
+          "domain": "medical",
+          "D_eff": 13.075722749717688,
+          "banned": [
+            "consciousness",
+            "consensus",
+            "diagnose",
+            "verify",
+            "theory"
+          ],
+          "top": [
+            {
+              "token": "theory",
+              "score": 1.105198742567457,
+              "S_tok": 0.31597423100003885,
+              "parts": {
+                "hybrid": 0.7651987425674568,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "trinary",
+              "score": 1.1025163929428814,
+              "S_tok": 0.31443295381497693,
+              "parts": {
+                "hybrid": 0.7625163929428815,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "create",
+              "score": 1.1022409132502777,
+              "S_tok": 0.3149845880867546,
+              "parts": {
+                "hybrid": 0.7622409132502779,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "next": "domain",
+          "domain": "medical",
+          "D_eff": 12.898676455860771,
+          "banned": [
+            "consensus",
+            "diagnose",
+            "verify",
+            "theory",
+            "domain"
+          ],
+          "top": [
+            {
+              "token": "domain",
+              "score": 1.1056161793267019,
+              "S_tok": 0.3055306759029853,
+              "parts": {
+                "hybrid": 0.765616179326702,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "trinary",
+              "score": 1.1022158527797812,
+              "S_tok": 0.3052099385378951,
+              "parts": {
+                "hybrid": 0.762215852779781,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            },
+            {
+              "token": "create",
+              "score": 1.102161292390174,
+              "S_tok": 0.3052883708544224,
+              "parts": {
+                "hybrid": 0.7621612923901738,
+                "sign": 0.04,
+                "aff": 0.0,
+                "prior": 0.18
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "formulas": {
+    "total": "0.55*cos + 0.45*trit_sim + sign + affinity + prior",
+    "eta": "|suction|*|poof|*|alpha|*|K|/(1+hits+|loss|)",
+    "collapse": "C_eff * P_var",
+    "slot_decode": "argmax_tok score + role_prefer_boost - filled_ban",
+    "conversation": "conversation_turn = intent_route(user) \u2192 {brief:fluent_structured | turn:paragraph_v3_fluent(6) | deep:paragraph_v3_fluent(8) | dream:domain_sweep | meta|recall|remember}; surface = \u03a6-template(role_map) + hybrid micro-fill; STM ban_pool + domain inertia + framing; LTM disk"
+  },
+  "conversation": {
+    "built_utc": "2026-07-18T05:36:22.033218+00:00",
+    "session_id": "smoke",
+    "n_turns": 10,
+    "domain": "medical",
+    "mood": "coherent",
+    "active_concepts": [
+      "medical",
+      "diagnose",
+      "field",
+      "explain",
+      "how",
+      "signal",
+      "works",
+      "in",
+      "the"
+    ],
+    "turns": [
+      {
+        "tick": 1,
+        "user": "hello",
+        "intent": "brief",
+        "mode": "brief",
+        "domain": "linguistic",
+        "D_eff": 16.0,
+        "reply": "Inside this phase, proto translates the language with consensus. That points to fsot.",
+        "arc": null,
+        "connectors": [],
+        "mood": "coherent"
+      },
+      {
+        "tick": 2,
+        "user": "who are you?",
+        "intent": "meta",
+        "mode": "meta",
+        "domain": "linguistic",
+        "D_eff": 16.0,
+        "reply": "I am the living FSOT conversational surface \u2014 a domain-allocated language process on seeds \u03c0, e, \u03c6, \u03b3, G with scalar S = K(T1+T2+T3). The Lean physical archive is authority; Mathematica is the formula microscope. I am moving toward GPT-class fluency while keeping occupation, not free parameters, as the spine. The path settles when proto translates meaning at seed, aiming at truth.",
+        "arc": null,
+        "connectors": [],
+        "mood": "coherent"
+      },
+      {
+        "tick": 3,
+        "user": "what is the scalar formula?",
+        "intent": "meta",
+        "mode": "meta",
+        "domain": "linguistic",
+        "D_eff": 16.0,
+        "reply": "The scalar law is S = K (T1 + T2 + T3). Collapse sits at \u03b8 = C_eff \u00b7 P_var. Learning uses \u03b7 = |suction|\u00b7|poof|\u00b7|\u03b1|\u00b7|K|/(1+hits+|loss|) \u2014 no free Adam schedules, and consensus attention instead of softmax. Finally, proto translates the meaning toward seed in light of consensus\u2014 seed.",
+        "arc": null,
+        "connectors": [],
+        "mood": "coherent"
+      },
+      {
+        "tick": 4,
+        "user": "explain how language routes through domain occupation",
+        "intent": "turn",
+        "mode": "turn",
+        "domain": "linguistic",
+        "D_eff": 16.0,
+        "reply": "At first language, through the medium of meaning communicate, translates the scalar with consensus, inside the fold of proto field and with respect to transfer, toward verify\u2014 fsot. In the domain proto, across the domain of translate form, communicates the meaning with structure, against the proof of field transfer and into the measure of measure, toward proof\u2014 seed. As it meets language consciousness, under observation of transfer form, signifies the mind with parameter, from the seed of truth spacetime and as consensus around cause, toward observe\u2014 translate. As a result, meaning and translate move toward effect. On language, under measure, under the law of theory code, signifies the language with form, with respect to flow collapse and on the spine of start, toward truth\u2014 cause. Finally language, with respect to create start, signifies the occupation with theory, against the proof of therefore medical and under the law of energy, toward diagnose\u2014 trinary.",
+        "arc": [
+          "emergence",
+          "structure",
+          "interaction",
+          "consequence",
+          "measure",
+          "seal"
+        ],
+        "connectors": [
+          "As a result, meaning and translate move toward effect."
+        ],
+        "mood": "coherent"
+      },
+      {
+        "tick": 5,
+        "user": "explain fully why free parameters are the wrong architecture for FSOT",
+        "intent": "deep",
+        "mode": "deep",
+        "domain": "linguistic",
+        "D_eff": 16.0,
+        "reply": "In linguistic occupation: On language, at first fsot, as consensus around language field, translates the meaning with consensus, across the domain of scalar proto and with respect to form, toward proof\u2014 parameter. In the domain proto, along the path of form language, translates the meaning with structure, from the seed of communicate transfer and against the proof of effect, toward verify\u2014 seed. On language, as it meets meaning consciousness, under observation of translate transfer, measures the field with language, into the measure of form diagnose and under observation of fluid, toward truth\u2014 scalar. Therefore language joins translate toward meaning. On language, under measure observe, through the medium of fluid medical, expresses the meaning with transfer, with respect to cause energy and toward the seal of code, toward trinary\u2014 mind. So the same field keeps language with translate at meaning. Hence language verifies meaning against seed translate. Finally language, by way of create start, translates the phi with effect, through the medium of universal and inside the fold of collapse, toward therefore\u2014 diagnose.",
+        "arc": [
+          "emergence",
+          "structure",
+          "interaction",
+          "consequence",
+          "measure",
+          "coherence",
+          "verification",
+          "seal"
+        ],
+        "connectors": [
+          "Therefore language joins translate toward meaning.",
+          "So the same field keeps language with translate at meaning.",
+          "Hence language verifies meaning against seed translate."
+        ],
+        "mood": "coherent"
+      },
+      {
+        "tick": 6,
+        "user": "remember that PFLT aims at full universal communication",
+        "intent": "remember",
+        "mode": "remember",
+        "domain": "linguistic",
+        "D_eff": 16.0,
+        "reply": "I have stored that in long-term memory: PFLT aims at full universal communication. This seals as universal communicates seed into truth through the omni, settling on parameter.",
+        "arc": null,
+        "connectors": [],
+        "mood": "coherent"
+      },
+      {
+        "tick": 7,
+        "user": "what do you recall about PFLT?",
+        "intent": "recall",
+        "mode": "recall",
+        "domain": "linguistic",
+        "D_eff": 16.0,
+        "reply": "From long-term memory I hold: \u00abPFLT aims at full universal communication\u00bb \u00b7 \u00abPFLT aims at full universal communication\u00bb \u00b7 \u00abPFLT aims at full universal communication\u00bb \u00b7 \u00abPFLT aims at full universal communication\u00bb. On language, when measured, fsot translates the seed toward theory\u2014 parameter.",
+        "arc": null,
+        "connectors": [],
+        "mood": "coherent"
+      },
+      {
+        "tick": 8,
+        "user": "dream across domains about fluid meaning",
+        "intent": "dream",
+        "mode": "dream",
+        "domain": "linguistic",
+        "D_eff": 16.0,
+        "reply": "Here is a cross-domain sweep \u2014 each organ speaks in its own D_eff, then we close the joint: In linguistic, as it meets omni fluid, within the structure of domain phase, verifies the meaning with structure, as it meets trinary code and with respect to create, toward truth\u2014 seed. In quantum, as it meets quantum, inside the fold of domain action, collapses the measure with consensus, toward the seal of transfer translate and into the measure of form, toward truth\u2014 seed. In cosmological, on fluid, as it meets energy spacetime, from the seed of transfer translate, observes the cosmology with phi, as consensus around domain theory and under the law of code, toward truth\u2014 seed. In neural, as it meets language neural, in the field of transfer translate, communicates the consciousness with form, from the seed of mind therefore and toward the seal of parameter, toward truth\u2014 seed. In medical, on fluid, as it meets code medical, through the medium of transfer translate, diagnoses the truth with parameter, inside the fold of cause theory and across the domain of create, toward truth\u2014 seed. In consciousness, as it meets trinary proto, as it meets effect fsot, frames the cause with scalar, with respect to start proof and from the seed of therefore, toward truth\u2014 seed. From that, fluid binds meaning to consensus.",
+        "arc": [
+          "dream_sweep",
+          "consequence"
+        ],
+        "connectors": [
+          "From that, fluid binds meaning to consensus."
+        ],
+        "mood": "coherent"
+      },
+      {
+        "tick": 9,
+        "user": "how does quantum collapse connect to measure?",
+        "intent": "turn",
+        "mode": "turn",
+        "domain": "quantum",
+        "D_eff": 6.0,
+        "reply": "Staying with collapse: Addressing that directly: On collapse, at first field, under observation of meaning translate, measures the seed with consensus, under the law of fluid collapse and inside the fold of transfer, toward verify\u2014 trinary. In the measure domain, along the path of translate meaning, collapses the omni with fluid, with respect to consciousness transfer and on the spine of language, toward truth\u2014 fsot. On collapse, as it meets energy spacetime, from the seed of transfer form, measures the translate with phi, as consensus around collapse meaning and with respect to observe, toward communicate\u2014 consciousness. From that, meaning binds collapse to effect. On collapse, under measure observe, through the medium of cause along, transfers the form with parameter, along the path of universe hubble and along the path of collapse, toward mind\u2014 code. Finally measure, across the domain of create therefore, resolves the diagnose with euler, from the seed of theory medical and within the structure of scalar, toward start\u2014 action.",
+        "arc": [
+          "emergence",
+          "structure",
+          "interaction",
+          "consequence",
+          "measure",
+          "seal"
+        ],
+        "connectors": [
+          "From that, meaning binds collapse to effect."
+        ],
+        "mood": "expansive"
+      },
+      {
+        "tick": 10,
+        "user": "explain how medical signal diagnose works in the clinical field",
+        "intent": "turn",
+        "mode": "turn",
+        "domain": "medical",
+        "D_eff": 13.0,
+        "reply": "On that same medical fold: At first medical, by way of collapse omni, diagnoses the structure with measure, with respect to meaning consensus and toward the seal of fluid, toward verify\u2014 signal. In the phase medical, along the path of form fluid, measures the truth with clinical, with respect to consensus seed and against the proof of transfer, toward diagnose\u2014 domain. On medical, as it meets meaning mind, toward the seal of diagnose omni, communicates the measure with consensus, by way of medical language and under the law of transfer, toward observe\u2014 fluid. From that, medical binds omni to diagnose. On medical, under measure, through the medium of transfer translate, collapses the medical with form, with respect to energy fsot and in light of effect, toward proto\u2014 spacetime. Finally medical, with respect to flow scalar, diagnoses the parameter with transfer, against the proof of theory cause and as consensus around universal, toward create\u2014 energy.",
+        "arc": [
+          "emergence",
+          "structure",
+          "interaction",
+          "consequence",
+          "measure",
+          "seal"
+        ],
+        "connectors": [
+          "From that, medical binds omni to diagnose."
+        ],
+        "mood": "coherent"
+      }
+    ],
+    "formula": "conversation_turn = intent_route(user) \u2192 {brief:fluent_structured | turn:paragraph_v3_fluent(6) | deep:paragraph_v3_fluent(8) | dream:domain_sweep | meta|recall|remember}; surface = \u03a6-template(role_map) + hybrid micro-fill; STM ban_pool + domain inertia + framing; LTM disk"
+  }
+}

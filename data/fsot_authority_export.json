@@ -1,0 +1,394 @@
+{
+  "authority": "vendor/fsot_compute.py",
+  "lean_twin": "FSOT/Formal/Scalar.lean",
+  "mathematica_twin": "mathematica/FSOT/FSOTScalar.wl",
+  "edition": "FSOT 2.1 Mathematica export",
+  "constants": {
+    "pi": 3.141592653589793,
+    "e": 2.718281828459045,
+    "phi": 1.618033988749895,
+    "gamma": 0.5772156649015329,
+    "G": 0.915965594177219,
+    "alpha": 0.0008082937414140405,
+    "psi_con": 0.6321205588285577,
+    "eta_eff": 0.46694220692425986,
+    "beta": 2.620866911333223e-17,
+    "gamma_c": -0.4283885167922066,
+    "omega": 1.2941305780559662,
+    "theta_s": 0.29089654054517305,
+    "poof": 0.1534822148944508,
+    "c_eff": 0.9577022026205613,
+    "a_bleed": 1.046973630587551,
+    "p_var": 0.9579871226722757,
+    "b_in": 0.7879407922764435,
+    "a_in": 1.6668538450045731,
+    "suction": 0.14703398542810284,
+    "chaos": -0.33102418261048183,
+    "p_base": 0.21234577623937842,
+    "p_new": 0.30030227667037146,
+    "c_factor": 0.28760015181918397,
+    "k": 0.4202216641606967,
+    "c_cosm": 0.061803398874989486,
+    "boot_scalar_poc": 0.5195106204293135
+  },
+  "domains_35": [
+    {
+      "name": "Particle_Physics",
+      "D_eff": 5,
+      "hits": 0,
+      "delta_psi": 1.0,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.35673889974801704,
+      "raw_S": 0.9504134401245242
+    },
+    {
+      "name": "Quantum_Mechanics",
+      "D_eff": 6,
+      "hits": 0,
+      "delta_psi": 1.0,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.35673889974801704,
+      "raw_S": 0.9555063001027196
+    },
+    {
+      "name": "Atomic_Physics",
+      "D_eff": 7,
+      "hits": 0,
+      "delta_psi": 0.85,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.8652559794322651,
+      "raw_S": 0.7358238658627416
+    },
+    {
+      "name": "Physical_Chemistry",
+      "D_eff": 8,
+      "hits": 0,
+      "delta_psi": 0.5,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.8652559794322651,
+      "raw_S": 0.33401327040170914
+    },
+    {
+      "name": "Chemistry",
+      "D_eff": 8,
+      "hits": 0,
+      "delta_psi": 0.6,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.8652559794322651,
+      "raw_S": 0.4078840642307454
+    },
+    {
+      "name": "Electromagnetism",
+      "D_eff": 9,
+      "hits": 0,
+      "delta_psi": 0.7,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.8652559794322651,
+      "raw_S": 0.5188655207983146
+    },
+    {
+      "name": "Molecular_Chemistry",
+      "D_eff": 9,
+      "hits": 0,
+      "delta_psi": 0.5,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.4211225906985263,
+      "raw_S": 0.3345733830778106
+    },
+    {
+      "name": "Optics",
+      "D_eff": 10,
+      "hits": 0,
+      "delta_psi": 0.6,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 1.1557273497909217,
+      "raw_S": 0.4080624712153455
+    },
+    {
+      "name": "Acoustics",
+      "D_eff": 10,
+      "hits": 0,
+      "delta_psi": 0.3,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.7403221539119567,
+      "raw_S": 0.3115907970863415
+    },
+    {
+      "name": "Quantum_Computing",
+      "D_eff": 11,
+      "hits": 0,
+      "delta_psi": 0.5,
+      "delta_theta": 1.0,
+      "observed": false,
+      "C": 0.520260095022889,
+      "raw_S": -0.14767310363368644
+    },
+    {
+      "name": "Quantum_Optics",
+      "D_eff": 11,
+      "hits": 0,
+      "delta_psi": 0.6,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 1.1557273497909217,
+      "raw_S": 0.4081705381715019
+    },
+    {
+      "name": "Biology",
+      "D_eff": 12,
+      "hits": 0,
+      "delta_psi": 0.08,
+      "delta_theta": 1.0,
+      "observed": false,
+      "C": 0.3402681446868002,
+      "raw_S": 0.4447250077038459
+    },
+    {
+      "name": "Thermodynamics",
+      "D_eff": 15,
+      "hits": 1,
+      "delta_psi": 0.9,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.21234577623937842,
+      "raw_S": 0.7869745016115727
+    },
+    {
+      "name": "Biochemistry",
+      "D_eff": 13,
+      "hits": 1,
+      "delta_psi": 0.35,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.3402681446868002,
+      "raw_S": 0.3062212293865662
+    },
+    {
+      "name": "Neuroscience",
+      "D_eff": 14,
+      "hits": 1,
+      "delta_psi": 0.7,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.28760015181918397,
+      "raw_S": 0.5143619629083619
+    },
+    {
+      "name": "Condensed_Matter",
+      "D_eff": 14,
+      "hits": 0,
+      "delta_psi": 0.5,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.3851600741417844,
+      "raw_S": 0.3384059955797751
+    },
+    {
+      "name": "Fluid_Dynamics",
+      "D_eff": 15,
+      "hits": 1,
+      "delta_psi": 0.9,
+      "delta_theta": 1.0,
+      "observed": false,
+      "C": 0.6470652890279831,
+      "raw_S": -0.562733806256851
+    },
+    {
+      "name": "Nuclear_Physics",
+      "D_eff": 15,
+      "hits": 1,
+      "delta_psi": 1.0,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.0004995530050876955,
+      "raw_S": 0.9213094330291355
+    },
+    {
+      "name": "Ecology",
+      "D_eff": 15,
+      "hits": 1,
+      "delta_psi": 0.2,
+      "delta_theta": 1.0,
+      "observed": false,
+      "C": 0.2974052636752033,
+      "raw_S": 0.3003170815488647
+    },
+    {
+      "name": "Meteorology",
+      "D_eff": 16,
+      "hits": 2,
+      "delta_psi": 0.8,
+      "delta_theta": 1.0,
+      "observed": false,
+      "C": -0.33102418261048183,
+      "raw_S": -0.4849970208468799
+    },
+    {
+      "name": "Materials_Science",
+      "D_eff": 10,
+      "hits": 0,
+      "delta_psi": 0.5,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.6132012610147523,
+      "raw_S": 0.33525988073638374
+    },
+    {
+      "name": "Psychology",
+      "D_eff": 16,
+      "hits": 1,
+      "delta_psi": 1.15,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.21234577623937842,
+      "raw_S": 1.050205640397955
+    },
+    {
+      "name": "Atmospheric_Physics",
+      "D_eff": 17,
+      "hits": 2,
+      "delta_psi": 0.8,
+      "delta_theta": 1.0,
+      "observed": false,
+      "C": -0.33102418261048183,
+      "raw_S": -0.47643190542960023
+    },
+    {
+      "name": "Oceanography",
+      "D_eff": 17,
+      "hits": 1,
+      "delta_psi": 0.7,
+      "delta_theta": 1.0,
+      "observed": false,
+      "C": 1.0301723304912753,
+      "raw_S": -0.37715907584612024
+    },
+    {
+      "name": "Seismology",
+      "D_eff": 18,
+      "hits": 2,
+      "delta_psi": 1.2,
+      "delta_theta": 1.0,
+      "observed": false,
+      "C": -0.16551209130524092,
+      "raw_S": -0.4459015721103038
+    },
+    {
+      "name": "Sociology",
+      "D_eff": 18,
+      "hits": 3,
+      "delta_psi": 1.5,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.5042374380513648,
+      "raw_S": 0.6501466524159132
+    },
+    {
+      "name": "High_Energy_Physics",
+      "D_eff": 7,
+      "hits": 1,
+      "delta_psi": 0.95,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.0005715499857445138,
+      "raw_S": 0.8862640566467022
+    },
+    {
+      "name": "Geophysics",
+      "D_eff": 19,
+      "hits": 2,
+      "delta_psi": 1.0,
+      "delta_theta": 1.0,
+      "observed": false,
+      "C": -0.33102418261048183,
+      "raw_S": -0.5490942927204095
+    },
+    {
+      "name": "Astronomy",
+      "D_eff": 20,
+      "hits": 1,
+      "delta_psi": 1.0,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 6.0997509753887735,
+      "raw_S": 0.8984595681660628
+    },
+    {
+      "name": "Economics",
+      "D_eff": 20,
+      "hits": 3,
+      "delta_psi": 1.5,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 0.5042374380513648,
+      "raw_S": 0.6460045206857493
+    },
+    {
+      "name": "Planetary_Science",
+      "D_eff": 21,
+      "hits": 1,
+      "delta_psi": 0.9,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 6.0997509753887735,
+      "raw_S": 0.7671791385407586
+    },
+    {
+      "name": "Quantum_Gravity",
+      "D_eff": 22,
+      "hits": 0,
+      "delta_psi": 1.0,
+      "delta_theta": 1.0,
+      "observed": false,
+      "C": 0.38196601125010515,
+      "raw_S": -0.5255977531899868
+    },
+    {
+      "name": "Particle_Astrophysics",
+      "D_eff": 24,
+      "hits": 0,
+      "delta_psi": 0.8,
+      "delta_theta": 1.0,
+      "observed": false,
+      "C": 3.630824551655961,
+      "raw_S": -0.424411720028886
+    },
+    {
+      "name": "Astrophysics",
+      "D_eff": 24,
+      "hits": 1,
+      "delta_psi": 1.0,
+      "delta_theta": 1.0,
+      "observed": true,
+      "C": 6.0997509753887735,
+      "raw_S": 0.8824107984181293
+    },
+    {
+      "name": "Cosmology",
+      "D_eff": 25,
+      "hits": 0,
+      "delta_psi": 1.0,
+      "delta_theta": 1.0,
+      "observed": false,
+      "C": 0.061803398874989486,
+      "raw_S": -0.5024559462100433
+    }
+  ],
+  "boot_params": {
+    "N": 1,
+    "P": 1,
+    "D_eff": 8,
+    "delta_psi": 0.7,
+    "recent_hits": 0,
+    "observed": true
+  }
+}

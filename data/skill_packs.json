@@ -1,0 +1,97 @@
+{
+  "version": "1.1",
+  "note": "Domain skill packs — mid-session prefer boosts (not free ranking weights). Loaded by conversation.",
+  "packs": {
+    "linguistic": {
+      "prefer_boost": [
+        "language", "meaning", "translate", "communicate", "proto", "universal",
+        "lexicon", "word", "gloss", "fluid", "discourse", "sentence", "phrase",
+        "route", "occupation", "fluency"
+      ],
+      "lead": "In linguistic occupation",
+      "seal_hint": "seed"
+    },
+    "quantum": {
+      "prefer_boost": [
+        "quantum", "collapse", "measure", "trinary", "phase", "field",
+        "particle", "coherence", "observe", "superposed", "consensus"
+      ],
+      "lead": "On the quantum fold",
+      "seal_hint": "consensus"
+    },
+    "neural": {
+      "prefer_boost": [
+        "neural", "mind", "consciousness", "observe", "cortex", "signal",
+        "neuron", "pathway", "fire"
+      ],
+      "lead": "Along the neural path",
+      "seal_hint": "mind"
+    },
+    "consciousness": {
+      "prefer_boost": [
+        "consciousness", "observe", "mind", "aware", "living", "field",
+        "observer", "attention", "truth"
+      ],
+      "lead": "As a living observer",
+      "seal_hint": "truth"
+    },
+    "medical": {
+      "prefer_boost": [
+        "medical", "diagnose", "signal", "measure", "clinical", "therapy",
+        "truth", "patient", "symptom", "disease", "treatment", "vital",
+        "pulse", "scan", "lab", "marker", "pathology", "healing", "care",
+        "protocol", "assess", "monitor", "response", "recovery", "risk"
+      ],
+      "lead": "In the medical signal band",
+      "seal_hint": "diagnose",
+      "discourse": [
+        "clinical measure of the patient field",
+        "diagnose from the medical signal",
+        "therapy routes through monitored response",
+        "vital markers under clinical observation",
+        "pathology assessed against seed truth",
+        "recovery path under protocol measure"
+      ]
+    },
+    "cosmological": {
+      "prefer_boost": [
+        "spacetime", "cosmology", "phase", "field", "galaxy", "universe",
+        "scalar", "hubble", "flow"
+      ],
+      "lead": "Under the cosmological D_eff",
+      "seal_hint": "phi"
+    },
+    "chemical": {
+      "prefer_boost": [
+        "structure", "energy", "code", "transfer", "bond", "molecule",
+        "reaction", "atom"
+      ],
+      "lead": "In chemical structure",
+      "seal_hint": "code"
+    },
+    "biological": {
+      "prefer_boost": [
+        "life", "biology", "structure", "form", "code", "organism",
+        "cell", "species"
+      ],
+      "lead": "In the biological organ",
+      "seal_hint": "life"
+    },
+    "genomic": {
+      "prefer_boost": [
+        "codon", "gene", "transfer", "start", "code", "dna",
+        "nucleotide", "protein"
+      ],
+      "lead": "Along the genomic code",
+      "seal_hint": "codon"
+    },
+    "mythological": {
+      "prefer_boost": [
+        "sky", "earth", "create", "form", "time", "truth",
+        "life", "origin"
+      ],
+      "lead": "In the mythological form band",
+      "seal_hint": "form"
+    }
+  }
+}

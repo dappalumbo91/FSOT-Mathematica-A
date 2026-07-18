@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Runtime / local session state (regenerated)
+memory/conversation_session.json
+memory/living_mind.json
+llm/traces/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local-only large dumps if reintroduced
+*.safetensors
+*.pt
+*.bin

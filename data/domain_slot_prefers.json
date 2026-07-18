@@ -1,0 +1,1076 @@
+{
+  "built_utc": "2026-07-18T05:30:05.176297+00:00",
+  "source": "curriculum + live PFLT domain_lexica + historical quality words",
+  "pflt_root": "C:\\Users\\damia\\Desktop\\pflt\\data",
+  "n_roles_default": 8,
+  "domains": {
+    "biological": {
+      "D_eff": 12,
+      "roles": [
+        {
+          "role": "subject",
+          "prefer": [
+            "biology",
+            "life",
+            "biochemistry",
+            "structure"
+          ]
+        },
+        {
+          "role": "link",
+          "prefer": [
+            "field",
+            "code",
+            "phase",
+            "form"
+          ]
+        },
+        {
+          "role": "act",
+          "prefer": [
+            "transfer",
+            "observe",
+            "create",
+            "measure"
+          ]
+        },
+        {
+          "role": "object",
+          "prefer": [
+            "life",
+            "code",
+            "structure",
+            "species",
+            "biology",
+            "biochemistry",
+            "igem",
+            "resonance",
+            "scale",
+            "microbiology",
+            "observable",
+            "developmental",
+            "depth"
+          ]
+        },
+        {
+          "role": "qual",
+          "prefer": [
+            "form",
+            "parameter",
+            "field",
+            "marine",
+            "synthetic",
+            "flux",
+            "process",
+            "panel"
+          ]
+        },
+        {
+          "role": "bridge",
+          "prefer": [
+            "genomic",
+            "chemical",
+            "medical",
+            "food",
+            "coherence",
+            "coupling",
+            "aspect",
+            "threshold",
+            "structural"
+          ]
+        },
+        {
+          "role": "close",
+          "prefer": [
+            "life",
+            "truth",
+            "form"
+          ]
+        },
+        {
+          "role": "seal",
+          "prefer": [
+            "life",
+            "biology",
+            "structure"
+          ]
+        }
+      ],
+      "top_targets": [
+        "biology",
+        "marine",
+        "field",
+        "biochemistry",
+        "synthetic",
+        "food",
+        "igem",
+        "flow",
+        "coherence",
+        "resonance",
+        "flux",
+        "coupling",
+        "scale",
+        "phase",
+        "aspect"
+      ],
+      "pflt_harvest_n": 658
+    },
+    "chemical": {
+      "D_eff": 9,
+      "roles": [
+        {
+          "role": "subject",
+          "prefer": [
+            "chemical",
+            "chemistry",
+            "structure",
+            "energy"
+          ]
+        },
+        {
+          "role": "link",
+          "prefer": [
+            "field",
+            "phase",
+            "code"
+          ]
+        },
+        {
+          "role": "act",
+          "prefer": [
+            "start",
+            "transfer",
+            "measure",
+            "create"
+          ]
+        },
+        {
+          "role": "object",
+          "prefer": [
+            "code",
+            "structure",
+            "energy",
+            "field",
+            "chemistry",
+            "molecular",
+            "ionospheric",
+            "coupling",
+            "resonance",
+            "thermochemistry",
+            "process",
+            "anchors"
+          ]
+        },
+        {
+          "role": "qual",
+          "prefer": [
+            "parameter",
+            "measure",
+            "phase",
+            "physical",
+            "maillard",
+            "flux",
+            "aspect",
+            "threshold",
+            "panel"
+          ]
+        },
+        {
+          "role": "bridge",
+          "prefer": [
+            "biological",
+            "quantum",
+            "seed",
+            "geochemistry",
+            "fuel",
+            "petrology",
+            "coherence",
+            "scale",
+            "observable",
+            "public"
+          ]
+        },
+        {
+          "role": "close",
+          "prefer": [
+            "truth",
+            "verify",
+            "seed"
+          ]
+        },
+        {
+          "role": "seal",
+          "prefer": [
+            "structure",
+            "energy",
+            "code"
+          ]
+        }
+      ],
+      "top_targets": [
+        "chemistry",
+        "field",
+        "geochemistry",
+        "molecular",
+        "physical",
+        "fuel",
+        "ionospheric",
+        "maillard",
+        "petrology",
+        "coupling",
+        "flow",
+        "coherence",
+        "resonance",
+        "flux",
+        "scale"
+      ],
+      "pflt_harvest_n": 660
+    },
+    "consciousness": {
+      "D_eff": 16,
+      "roles": [
+        {
+          "role": "subject",
+          "prefer": [
+            "consciousness",
+            "mind",
+            "observe",
+            "psychology"
+          ]
+        },
+        {
+          "role": "link",
+          "prefer": [
+            "field",
+            "phase",
+            "structure",
+            "signal"
+          ]
+        },
+        {
+          "role": "act",
+          "prefer": [
+            "observe",
+            "measure",
+            "communicate",
+            "verify"
+          ]
+        },
+        {
+          "role": "object",
+          "prefer": [
+            "truth",
+            "field",
+            "mind",
+            "structure",
+            "longevity",
+            "coherence",
+            "scale",
+            "econ",
+            "galactic",
+            "panel",
+            "threshold",
+            "multi"
+          ]
+        },
+        {
+          "role": "qual",
+          "prefer": [
+            "consensus",
+            "coherence",
+            "parameter",
+            "psychology",
+            "coupling",
+            "resonance",
+            "soul",
+            "psychometrics",
+            "observable",
+            "spine",
+            "depth"
+          ]
+        },
+        {
+          "role": "bridge",
+          "prefer": [
+            "neural",
+            "language",
+            "meaning",
+            "flux",
+            "aspect",
+            "expansion",
+            "species",
+            "bridge",
+            "process",
+            "orbital"
+          ]
+        },
+        {
+          "role": "close",
+          "prefer": [
+            "truth",
+            "seed",
+            "observe"
+          ]
+        },
+        {
+          "role": "seal",
+          "prefer": [
+            "consciousness",
+            "mind",
+            "consensus"
+          ]
+        }
+      ],
+      "top_targets": [
+        "consciousness",
+        "psychology",
+        "field",
+        "longevity",
+        "coupling",
+        "flow",
+        "coherence",
+        "resonance",
+        "flux",
+        "scale",
+        "phase",
+        "aspect",
+        "econ",
+        "domain",
+        "expansion"
+      ],
+      "pflt_harvest_n": 660
+    },
+    "cosmological": {
+      "D_eff": 25,
+      "roles": [
+        {
+          "role": "subject",
+          "prefer": [
+            "spacetime",
+            "cosmology",
+            "astronomy",
+            "field"
+          ]
+        },
+        {
+          "role": "link",
+          "prefer": [
+            "phase",
+            "scalar",
+            "structure"
+          ]
+        },
+        {
+          "role": "act",
+          "prefer": [
+            "flow",
+            "measure",
+            "observe"
+          ]
+        },
+        {
+          "role": "object",
+          "prefer": [
+            "seed",
+            "scalar",
+            "phase",
+            "structure",
+            "cosmology",
+            "astronomy",
+            "coherence",
+            "coupling",
+            "radio",
+            "extended",
+            "process",
+            "anomaly"
+          ]
+        },
+        {
+          "role": "qual",
+          "prefer": [
+            "pi",
+            "phi",
+            "catalan",
+            "parameter",
+            "resonance",
+            "scale",
+            "aspect",
+            "threshold",
+            "bubble",
+            "deep"
+          ]
+        },
+        {
+          "role": "bridge",
+          "prefer": [
+            "quantum",
+            "field",
+            "energy",
+            "astrophysics",
+            "flux",
+            "particle",
+            "anomalies",
+            "observable",
+            "panel",
+            "bleed"
+          ]
+        },
+        {
+          "role": "close",
+          "prefer": [
+            "truth",
+            "seed",
+            "verify"
+          ]
+        },
+        {
+          "role": "seal",
+          "prefer": [
+            "spacetime",
+            "scalar",
+            "phi"
+          ]
+        }
+      ],
+      "top_targets": [
+        "cosmology",
+        "field",
+        "astrophysics",
+        "astronomy",
+        "phase",
+        "flow",
+        "coherence",
+        "resonance",
+        "flux",
+        "coupling",
+        "scale",
+        "particle",
+        "radio",
+        "aspect",
+        "anomalies"
+      ],
+      "pflt_harvest_n": 743
+    },
+    "genomic": {
+      "D_eff": 12,
+      "roles": [
+        {
+          "role": "subject",
+          "prefer": [
+            "codon",
+            "genetics",
+            "code",
+            "start"
+          ]
+        },
+        {
+          "role": "link",
+          "prefer": [
+            "structure",
+            "field",
+            "phase"
+          ]
+        },
+        {
+          "role": "act",
+          "prefer": [
+            "transfer",
+            "start",
+            "action",
+            "measure"
+          ]
+        },
+        {
+          "role": "object",
+          "prefer": [
+            "code",
+            "structure",
+            "energy",
+            "codon",
+            "coupling",
+            "coherence",
+            "scale",
+            "panel"
+          ]
+        },
+        {
+          "role": "qual",
+          "prefer": [
+            "life",
+            "parameter",
+            "verify",
+            "zebrafish",
+            "resonance",
+            "aspect",
+            "species"
+          ]
+        },
+        {
+          "role": "bridge",
+          "prefer": [
+            "biological",
+            "chemical",
+            "signal",
+            "genetics",
+            "flux",
+            "codon",
+            "longevity"
+          ]
+        },
+        {
+          "role": "close",
+          "prefer": [
+            "action",
+            "life",
+            "verify"
+          ]
+        },
+        {
+          "role": "seal",
+          "prefer": [
+            "codon",
+            "transfer",
+            "start"
+          ]
+        }
+      ],
+      "top_targets": [
+        "consciousness",
+        "zebrafish",
+        "genetics",
+        "coupling",
+        "field",
+        "flow",
+        "coherence",
+        "resonance",
+        "flux",
+        "scale",
+        "phase",
+        "codon",
+        "panel",
+        "aspect",
+        "longevity"
+      ],
+      "pflt_harvest_n": 247
+    },
+    "linguistic": {
+      "D_eff": 16,
+      "roles": [
+        {
+          "role": "subject",
+          "prefer": [
+            "fsot",
+            "fluid",
+            "proto",
+            "language",
+            "universal"
+          ]
+        },
+        {
+          "role": "link",
+          "prefer": [
+            "field",
+            "domain",
+            "structure",
+            "phase"
+          ]
+        },
+        {
+          "role": "act",
+          "prefer": [
+            "translate",
+            "communicate",
+            "verify",
+            "observe"
+          ]
+        },
+        {
+          "role": "object",
+          "prefer": [
+            "meaning",
+            "language",
+            "seed",
+            "scalar",
+            "formula",
+            "river",
+            "mount",
+            "water",
+            "cosmology",
+            "tree",
+            "gold",
+            "fusion"
+          ]
+        },
+        {
+          "role": "qual",
+          "prefer": [
+            "structure",
+            "consensus",
+            "parameter",
+            "theory",
+            "linguistics",
+            "materials",
+            "longevity",
+            "king",
+            "formula",
+            "formal",
+            "god",
+            "igem"
+          ]
+        },
+        {
+          "role": "bridge",
+          "prefer": [
+            "spacetime",
+            "fluid",
+            "omni",
+            "theory",
+            "female",
+            "son",
+            "law",
+            "bird",
+            "sky",
+            "fuel",
+            "math"
+          ]
+        },
+        {
+          "role": "close",
+          "prefer": [
+            "truth",
+            "proof",
+            "verify",
+            "theory"
+          ]
+        },
+        {
+          "role": "seal",
+          "prefer": [
+            "fsot",
+            "seed",
+            "consensus",
+            "parameter"
+          ]
+        }
+      ],
+      "top_targets": [
+        "river",
+        "linguistics",
+        "female",
+        "mount",
+        "materials",
+        "consciousness",
+        "water",
+        "longevity",
+        "domain",
+        "field",
+        "king",
+        "son",
+        "fluid",
+        "formula",
+        "law"
+      ],
+      "pflt_harvest_n": 251
+    },
+    "medical": {
+      "D_eff": 13,
+      "roles": [
+        {
+          "role": "subject",
+          "prefer": [
+            "medical",
+            "medicine",
+            "signal",
+            "clinical"
+          ]
+        },
+        {
+          "role": "link",
+          "prefer": [
+            "field",
+            "structure",
+            "signal"
+          ]
+        },
+        {
+          "role": "act",
+          "prefer": [
+            "diagnose",
+            "measure",
+            "observe",
+            "verify"
+          ]
+        },
+        {
+          "role": "object",
+          "prefer": [
+            "truth",
+            "signal",
+            "life",
+            "structure",
+            "medicine",
+            "resonance",
+            "scale",
+            "galactic",
+            "panel",
+            "therapy",
+            "protocol",
+            "disease"
+          ]
+        },
+        {
+          "role": "qual",
+          "prefer": [
+            "parameter",
+            "measure",
+            "field",
+            "clinical",
+            "flux",
+            "interactive",
+            "orbital",
+            "patient",
+            "care"
+          ]
+        },
+        {
+          "role": "bridge",
+          "prefer": [
+            "consciousness",
+            "neural",
+            "code",
+            "coherence",
+            "coupling",
+            "aspect",
+            "bridge",
+            "vital"
+          ]
+        },
+        {
+          "role": "close",
+          "prefer": [
+            "verify",
+            "truth",
+            "diagnose"
+          ]
+        },
+        {
+          "role": "seal",
+          "prefer": [
+            "medical",
+            "signal",
+            "field"
+          ]
+        }
+      ],
+      "top_targets": [
+        "medical",
+        "clinical",
+        "field",
+        "medicine",
+        "flow",
+        "coherence",
+        "resonance",
+        "flux",
+        "coupling",
+        "scale",
+        "phase",
+        "aspect",
+        "galactic",
+        "diagnose",
+        "domain"
+      ],
+      "pflt_harvest_n": 247
+    },
+    "mythological": {
+      "D_eff": 21,
+      "roles": [
+        {
+          "role": "subject",
+          "prefer": [
+            "sky",
+            "earth",
+            "water",
+            "time",
+            "king"
+          ]
+        },
+        {
+          "role": "link",
+          "prefer": [
+            "field",
+            "form",
+            "flow"
+          ]
+        },
+        {
+          "role": "act",
+          "prefer": [
+            "create",
+            "form",
+            "flow"
+          ]
+        },
+        {
+          "role": "object",
+          "prefer": [
+            "form",
+            "law",
+            "god",
+            "water",
+            "tablet",
+            "king"
+          ]
+        },
+        {
+          "role": "qual",
+          "prefer": [
+            "judgment",
+            "structure",
+            "life",
+            "water"
+          ]
+        },
+        {
+          "role": "bridge",
+          "prefer": [
+            "language",
+            "meaning",
+            "truth",
+            "earth"
+          ]
+        },
+        {
+          "role": "close",
+          "prefer": [
+            "truth",
+            "life",
+            "form"
+          ]
+        },
+        {
+          "role": "seal",
+          "prefer": [
+            "earth",
+            "sky",
+            "create"
+          ]
+        }
+      ],
+      "top_targets": [
+        "king",
+        "water",
+        "form",
+        "tablet",
+        "judgment",
+        "earth",
+        "create"
+      ],
+      "pflt_harvest_n": 7
+    },
+    "neural": {
+      "D_eff": 14,
+      "roles": [
+        {
+          "role": "subject",
+          "prefer": [
+            "neural",
+            "mind",
+            "consciousness",
+            "neuroscience"
+          ]
+        },
+        {
+          "role": "link",
+          "prefer": [
+            "field",
+            "phase",
+            "structure"
+          ]
+        },
+        {
+          "role": "act",
+          "prefer": [
+            "observe",
+            "measure",
+            "communicate"
+          ]
+        },
+        {
+          "role": "object",
+          "prefer": [
+            "consciousness",
+            "mind",
+            "field",
+            "structure",
+            "neuroscience",
+            "coherence",
+            "coupling",
+            "connectomics",
+            "threshold"
+          ]
+        },
+        {
+          "role": "qual",
+          "prefer": [
+            "consensus",
+            "coherence",
+            "phase",
+            "resonance",
+            "scale",
+            "aspect",
+            "observable",
+            "depth"
+          ]
+        },
+        {
+          "role": "bridge",
+          "prefer": [
+            "signal",
+            "language",
+            "meaning",
+            "flux",
+            "process",
+            "panel"
+          ]
+        },
+        {
+          "role": "close",
+          "prefer": [
+            "truth",
+            "seed",
+            "observe"
+          ]
+        },
+        {
+          "role": "seal",
+          "prefer": [
+            "consciousness",
+            "neural",
+            "consensus"
+          ]
+        }
+      ],
+      "top_targets": [
+        "neuroscience",
+        "field",
+        "flow",
+        "coherence",
+        "resonance",
+        "flux",
+        "coupling",
+        "scale",
+        "phase",
+        "connectomics",
+        "aspect",
+        "mind",
+        "threshold",
+        "observable",
+        "process"
+      ],
+      "pflt_harvest_n": 166
+    },
+    "quantum": {
+      "D_eff": 6,
+      "roles": [
+        {
+          "role": "subject",
+          "prefer": [
+            "quantum",
+            "particle",
+            "nuclear",
+            "field"
+          ]
+        },
+        {
+          "role": "link",
+          "prefer": [
+            "phase",
+            "structure",
+            "field"
+          ]
+        },
+        {
+          "role": "act",
+          "prefer": [
+            "collapse",
+            "measure",
+            "observe"
+          ]
+        },
+        {
+          "role": "object",
+          "prefer": [
+            "measure",
+            "field",
+            "seed",
+            "coherence",
+            "nuclear",
+            "aspect",
+            "computing",
+            "optics",
+            "materials"
+          ]
+        },
+        {
+          "role": "state",
+          "prefer": [
+            "trinary",
+            "superposed",
+            "structure"
+          ]
+        },
+        {
+          "role": "qual",
+          "prefer": [
+            "consensus",
+            "coherence",
+            "phase",
+            "resonance",
+            "coupling",
+            "particle",
+            "physics",
+            "mechanics",
+            "panel",
+            "depth",
+            "math"
+          ]
+        },
+        {
+          "role": "close",
+          "prefer": [
+            "truth",
+            "seed",
+            "verify"
+          ]
+        },
+        {
+          "role": "seal",
+          "prefer": [
+            "trinary",
+            "quantum",
+            "consensus"
+          ]
+        }
+      ],
+      "top_targets": [
+        "quantum",
+        "field",
+        "flow",
+        "coherence",
+        "resonance",
+        "flux",
+        "phase",
+        "coupling",
+        "scale",
+        "nuclear",
+        "particle",
+        "microtubule",
+        "aspect",
+        "physics",
+        "domain"
+      ],
+      "pflt_harvest_n": 992
+    }
+  },
+  "note": "Refresh via scripts/refresh_pflt_bridge.py without full retrain. generate_structured() reloads this file each call."
+}

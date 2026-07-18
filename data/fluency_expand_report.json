@@ -1,0 +1,60 @@
+{
+  "built_utc": "2026-07-18T05:30:05.012206+00:00",
+  "pairs_added": 12,
+  "vocab_added": 19,
+  "n_pairs_total": 2587,
+  "n_vocab_total": 2613,
+  "quick_train": false,
+  "train_steps": 0,
+  "sample_added": [
+    {
+      "domain": "medical",
+      "context": "clinical measure of the patient field",
+      "target": "measure",
+      "source": "fluency_discourse"
+    },
+    {
+      "domain": "medical",
+      "context": "diagnose from the medical signal",
+      "target": "diagnose",
+      "source": "fluency_discourse"
+    },
+    {
+      "domain": "medical",
+      "context": "therapy routes through monitored response",
+      "target": "therapy",
+      "source": "fluency_discourse"
+    },
+    {
+      "domain": "medical",
+      "context": "vital markers under clinical observation",
+      "target": "clinical",
+      "source": "fluency_discourse"
+    },
+    {
+      "domain": "medical",
+      "context": "pathology assessed against seed truth",
+      "target": "truth",
+      "source": "fluency_discourse"
+    },
+    {
+      "domain": "medical",
+      "context": "recovery path under protocol measure",
+      "target": "medical",
+      "source": "fluency_discourse"
+    },
+    {
+      "domain": "medical",
+      "context": "patient symptom under medical diagnose",
+      "target": "patient",
+      "source": "fluency_discourse"
+    },
+    {
+      "domain": "medical",
+      "context": "lab marker signal for clinical assess",
+      "target": "signal",
+      "source": "fluency_discourse"
+    }
+  ],
+  "note": "fluency_discourse pairs = meaning-bearing frames for GPT-path surface"
+}

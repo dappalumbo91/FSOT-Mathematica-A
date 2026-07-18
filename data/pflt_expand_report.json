@@ -1,0 +1,28 @@
+{
+  "built_utc": "2026-07-18T03:52:15.100532+00:00",
+  "n_pairs": 2511,
+  "n_vocab": 2500,
+  "by_source": {
+    "seed": 20,
+    "historical_gold": 800,
+    "classical": 600,
+    "hieroglyph": 250,
+    "rosetta": 282,
+    "domain_lexica": 500,
+    "global_safe": 200
+  },
+  "domains": {
+    "linguistic": 2068,
+    "cosmological": 8,
+    "quantum": 8,
+    "neural": 3,
+    "chemical": 3,
+    "biological": 5,
+    "consciousness": 3,
+    "mythological": 258,
+    "genomic": 68,
+    "medical": 87
+  },
+  "curriculum": "I:\\fsot in mathmatica\\data\\fsot_llm_curriculum.json",
+  "vocab": "I:\\fsot in mathmatica\\data\\fsot_llm_vocab.json"
+}

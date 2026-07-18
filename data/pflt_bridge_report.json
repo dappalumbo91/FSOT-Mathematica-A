@@ -1,0 +1,832 @@
+{
+  "built_utc": "2026-07-18T04:56:16.877802+00:00",
+  "mode": "prefer_refresh_only",
+  "retrain": false,
+  "prefers_path": "I:\\fsot in mathmatica\\data\\domain_slot_prefers.json",
+  "n_domains": 10,
+  "domains": {
+    "biological": {
+      "D_eff": 12,
+      "n_roles": 8,
+      "pflt_harvest_n": 658,
+      "roles": [
+        "subject",
+        "link",
+        "act",
+        "object",
+        "qual",
+        "bridge",
+        "close",
+        "seal"
+      ]
+    },
+    "chemical": {
+      "D_eff": 9,
+      "n_roles": 8,
+      "pflt_harvest_n": 660,
+      "roles": [
+        "subject",
+        "link",
+        "act",
+        "object",
+        "qual",
+        "bridge",
+        "close",
+        "seal"
+      ]
+    },
+    "consciousness": {
+      "D_eff": 16,
+      "n_roles": 8,
+      "pflt_harvest_n": 660,
+      "roles": [
+        "subject",
+        "link",
+        "act",
+        "object",
+        "qual",
+        "bridge",
+        "close",
+        "seal"
+      ]
+    },
+    "cosmological": {
+      "D_eff": 25,
+      "n_roles": 8,
+      "pflt_harvest_n": 743,
+      "roles": [
+        "subject",
+        "link",
+        "act",
+        "object",
+        "qual",
+        "bridge",
+        "close",
+        "seal"
+      ]
+    },
+    "genomic": {
+      "D_eff": 12,
+      "n_roles": 8,
+      "pflt_harvest_n": 247,
+      "roles": [
+        "subject",
+        "link",
+        "act",
+        "object",
+        "qual",
+        "bridge",
+        "close",
+        "seal"
+      ]
+    },
+    "linguistic": {
+      "D_eff": 16,
+      "n_roles": 8,
+      "pflt_harvest_n": 251,
+      "roles": [
+        "subject",
+        "link",
+        "act",
+        "object",
+        "qual",
+        "bridge",
+        "close",
+        "seal"
+      ]
+    },
+    "medical": {
+      "D_eff": 13,
+      "n_roles": 8,
+      "pflt_harvest_n": 247,
+      "roles": [
+        "subject",
+        "link",
+        "act",
+        "object",
+        "qual",
+        "bridge",
+        "close",
+        "seal"
+      ]
+    },
+    "mythological": {
+      "D_eff": 21,
+      "n_roles": 8,
+      "pflt_harvest_n": 7,
+      "roles": [
+        "subject",
+        "link",
+        "act",
+        "object",
+        "qual",
+        "bridge",
+        "close",
+        "seal"
+      ]
+    },
+    "neural": {
+      "D_eff": 14,
+      "n_roles": 8,
+      "pflt_harvest_n": 166,
+      "roles": [
+        "subject",
+        "link",
+        "act",
+        "object",
+        "qual",
+        "bridge",
+        "close",
+        "seal"
+      ]
+    },
+    "quantum": {
+      "D_eff": 6,
+      "n_roles": 8,
+      "pflt_harvest_n": 992,
+      "roles": [
+        "subject",
+        "link",
+        "act",
+        "object",
+        "state",
+        "qual",
+        "close",
+        "seal"
+      ]
+    }
+  },
+  "note": "generate_structured reloads domain_slot_prefers.json each call. Embeddings unchanged unless you run full publication_demo / run_fsot_llm_python.",
+  "structured_samples": [
+    {
+      "prompt": "fsot scalar seed domain",
+      "domain": "linguistic",
+      "D_eff": 16.0,
+      "generated": "fsot domain verify scalar consensus omni theory seed",
+      "sentence": "fsot in domain does verify the scalar with consensus via omni toward theory \u2014 seed",
+      "roles": [
+        {
+          "role": "subject",
+          "token": "fsot"
+        },
+        {
+          "role": "link",
+          "token": "domain"
+        },
+        {
+          "role": "act",
+          "token": "verify"
+        },
+        {
+          "role": "object",
+          "token": "scalar"
+        },
+        {
+          "role": "qual",
+          "token": "consensus"
+        },
+        {
+          "role": "bridge",
+          "token": "omni"
+        },
+        {
+          "role": "close",
+          "token": "theory"
+        },
+        {
+          "role": "seal",
+          "token": "seed"
+        }
+      ]
+    },
+    {
+      "prompt": "proto fluid communicate",
+      "domain": "linguistic",
+      "D_eff": 16.0,
+      "generated": "fluid phase communicate language consensus omni verify fsot",
+      "sentence": "fluid in phase does communicate the language with consensus via omni toward verify \u2014 fsot",
+      "roles": [
+        {
+          "role": "subject",
+          "token": "fluid"
+        },
+        {
+          "role": "link",
+          "token": "phase"
+        },
+        {
+          "role": "act",
+          "token": "communicate"
+        },
+        {
+          "role": "object",
+          "token": "language"
+        },
+        {
+          "role": "qual",
+          "token": "consensus"
+        },
+        {
+          "role": "bridge",
+          "token": "omni"
+        },
+        {
+          "role": "close",
+          "token": "verify"
+        },
+        {
+          "role": "seal",
+          "token": "fsot"
+        }
+      ]
+    },
+    {
+      "prompt": "neural consciousness observe",
+      "domain": "neural",
+      "D_eff": 14.0,
+      "generated": "consciousness phase observe structure consensus meaning seed neural",
+      "sentence": "consciousness in phase does observe the structure with consensus via meaning toward seed \u2014 neural",
+      "roles": [
+        {
+          "role": "subject",
+          "token": "consciousness"
+        },
+        {
+          "role": "link",
+          "token": "phase"
+        },
+        {
+          "role": "act",
+          "token": "observe"
+        },
+        {
+          "role": "object",
+          "token": "structure"
+        },
+        {
+          "role": "qual",
+          "token": "consensus"
+        },
+        {
+          "role": "bridge",
+          "token": "meaning"
+        },
+        {
+          "role": "close",
+          "token": "seed"
+        },
+        {
+          "role": "seal",
+          "token": "neural"
+        }
+      ]
+    },
+    {
+      "prompt": "medical signal measure",
+      "domain": "medical",
+      "D_eff": 13.0,
+      "generated": "medical signal measure truth field consciousness diagnose consensus",
+      "sentence": "medical in signal does measure the truth with field via consciousness toward diagnose \u2014 consensus",
+      "roles": [
+        {
+          "role": "subject",
+          "token": "medical"
+        },
+        {
+          "role": "link",
+          "token": "signal"
+        },
+        {
+          "role": "act",
+          "token": "measure"
+        },
+        {
+          "role": "object",
+          "token": "truth"
+        },
+        {
+          "role": "qual",
+          "token": "field"
+        },
+        {
+          "role": "bridge",
+          "token": "consciousness"
+        },
+        {
+          "role": "close",
+          "token": "diagnose"
+        },
+        {
+          "role": "seal",
+          "token": "consensus"
+        }
+      ]
+    },
+    {
+      "prompt": "quantum measure collapse",
+      "domain": "quantum",
+      "D_eff": 6.0,
+      "generated": "quantum measure collapse structure phase field verify consensus",
+      "sentence": "quantum in measure does collapse as structure with phase the field toward verify \u2014 consensus",
+      "roles": [
+        {
+          "role": "subject",
+          "token": "quantum"
+        },
+        {
+          "role": "link",
+          "token": "measure"
+        },
+        {
+          "role": "act",
+          "token": "collapse"
+        },
+        {
+          "role": "state",
+          "token": "structure"
+        },
+        {
+          "role": "qual",
+          "token": "phase"
+        },
+        {
+          "role": "object",
+          "token": "field"
+        },
+        {
+          "role": "close",
+          "token": "verify"
+        },
+        {
+          "role": "seal",
+          "token": "consensus"
+        }
+      ]
+    },
+    {
+      "prompt": "sky earth time create",
+      "domain": "mythological",
+      "D_eff": 21.0,
+      "generated": "earth field create form structure truth time spacetime",
+      "sentence": "earth in field does create the form with structure via truth toward time \u2014 spacetime",
+      "roles": [
+        {
+          "role": "subject",
+          "token": "earth"
+        },
+        {
+          "role": "link",
+          "token": "field"
+        },
+        {
+          "role": "act",
+          "token": "create"
+        },
+        {
+          "role": "object",
+          "token": "form"
+        },
+        {
+          "role": "qual",
+          "token": "structure"
+        },
+        {
+          "role": "bridge",
+          "token": "truth"
+        },
+        {
+          "role": "close",
+          "token": "time"
+        },
+        {
+          "role": "seal",
+          "token": "spacetime"
+        }
+      ]
+    },
+    {
+      "prompt": "start transfer energy structure",
+      "domain": "chemical",
+      "D_eff": 9.0,
+      "generated": "structure phase start energy measure seed verify code",
+      "sentence": "structure in phase does start the energy with measure via seed toward verify \u2014 code",
+      "roles": [
+        {
+          "role": "subject",
+          "token": "structure"
+        },
+        {
+          "role": "link",
+          "token": "phase"
+        },
+        {
+          "role": "act",
+          "token": "start"
+        },
+        {
+          "role": "object",
+          "token": "energy"
+        },
+        {
+          "role": "qual",
+          "token": "measure"
+        },
+        {
+          "role": "bridge",
+          "token": "seed"
+        },
+        {
+          "role": "close",
+          "token": "verify"
+        },
+        {
+          "role": "seal",
+          "token": "code"
+        }
+      ]
+    },
+    {
+      "prompt": "cosmology spacetime field phase",
+      "domain": "cosmological",
+      "D_eff": 25.0,
+      "generated": "spacetime phase flow cosmology parameter energy seed phi",
+      "sentence": "spacetime in phase does flow the cosmology with parameter via energy toward seed \u2014 phi",
+      "roles": [
+        {
+          "role": "subject",
+          "token": "spacetime"
+        },
+        {
+          "role": "link",
+          "token": "phase"
+        },
+        {
+          "role": "act",
+          "token": "flow"
+        },
+        {
+          "role": "object",
+          "token": "cosmology"
+        },
+        {
+          "role": "qual",
+          "token": "parameter"
+        },
+        {
+          "role": "bridge",
+          "token": "energy"
+        },
+        {
+          "role": "close",
+          "token": "seed"
+        },
+        {
+          "role": "seal",
+          "token": "phi"
+        }
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "prompt": "fsot scalar seed domain",
+      "mode": "paragraph_v2",
+      "domain": "linguistic",
+      "D_eff": 16.0,
+      "n_sentences": 6,
+      "arc": [
+        "emergence",
+        "structure",
+        "interaction",
+        "consequence",
+        "measure",
+        "seal"
+      ],
+      "paragraph": "Fsot in domain does verify the scalar with consensus via omni toward theory \u2014 seed. Fsot in structure does translate the scalar with parameter via fluid toward proof \u2014 seed. Fsot in phase does communicate the scalar with seed via spacetime toward truth \u2014 transfer. Therefore seed joins scalar toward fsot. Observe in field does measure the mind with fsot via meaning toward seed \u2014 consciousness. Fsot in scalar does seed the language with form via effect toward create \u2014 code.",
+      "sentences": [
+        "Fsot in domain does verify the scalar with consensus via omni toward theory \u2014 seed.",
+        "Fsot in structure does translate the scalar with parameter via fluid toward proof \u2014 seed.",
+        "Fsot in phase does communicate the scalar with seed via spacetime toward truth \u2014 transfer.",
+        "Therefore seed joins scalar toward fsot.",
+        "Observe in field does measure the mind with fsot via meaning toward seed \u2014 consciousness.",
+        "Fsot in scalar does seed the language with form via effect toward create \u2014 code."
+      ],
+      "steps": [
+        {
+          "index": 1,
+          "phase": "emergence",
+          "kind": "sentence",
+          "focus": "fsot",
+          "domain": "linguistic",
+          "sentence": "Fsot in domain does verify the scalar with consensus via omni toward theory \u2014 seed.",
+          "fills": null
+        },
+        {
+          "index": 2,
+          "phase": "structure",
+          "kind": "sentence",
+          "focus": "scalar",
+          "domain": "linguistic",
+          "sentence": "Fsot in structure does translate the scalar with parameter via fluid toward proof \u2014 seed.",
+          "fills": null
+        },
+        {
+          "index": 3,
+          "phase": "interaction",
+          "kind": "sentence",
+          "focus": "domain",
+          "domain": "linguistic",
+          "sentence": "Fsot in phase does communicate the scalar with seed via spacetime toward truth \u2014 transfer.",
+          "fills": null
+        },
+        {
+          "index": 4,
+          "phase": "consequence",
+          "kind": "connector",
+          "focus": "fsot",
+          "domain": "linguistic",
+          "sentence": "Therefore seed joins scalar toward fsot.",
+          "fills": {
+            "a": "seed",
+            "b": "scalar",
+            "c": "fsot"
+          }
+        },
+        {
+          "index": 5,
+          "phase": "measure",
+          "kind": "sentence",
+          "focus": "seed",
+          "domain": "consciousness",
+          "sentence": "Observe in field does measure the mind with fsot via meaning toward seed \u2014 consciousness.",
+          "fills": null
+        },
+        {
+          "index": 6,
+          "phase": "seal",
+          "kind": "sentence",
+          "focus": "fsot",
+          "domain": "linguistic",
+          "sentence": "Fsot in scalar does seed the language with form via effect toward create \u2014 code.",
+          "fills": null
+        }
+      ],
+      "formula": "paragraph_v2 = concat steps; step = structured_slots(8) | connector(Therefore/Thus/Hence + Phi fills); default arc length 6; no free params"
+    },
+    {
+      "prompt": "proto fluid communicate",
+      "mode": "paragraph_v2",
+      "domain": "linguistic",
+      "D_eff": 16.0,
+      "n_sentences": 6,
+      "arc": [
+        "emergence",
+        "structure",
+        "interaction",
+        "consequence",
+        "measure",
+        "seal"
+      ],
+      "paragraph": "Fluid in field does communicate the meaning with consensus via omni toward theory \u2014 seed. Proto in domain does communicate the language with structure via fluid toward verify \u2014 fsot. Fluid in phase does communicate the scalar with parameter via spacetime toward proof \u2014 proto. Therefore communicate joins fluid toward proto. Fluid in proto does communicate the measure with observe via effect toward truth \u2014 transfer. Proto in fluid does communicate the diagnose with trinary via flow toward form \u2014 create.",
+      "sentences": [
+        "Fluid in field does communicate the meaning with consensus via omni toward theory \u2014 seed.",
+        "Proto in domain does communicate the language with structure via fluid toward verify \u2014 fsot.",
+        "Fluid in phase does communicate the scalar with parameter via spacetime toward proof \u2014 proto.",
+        "Therefore communicate joins fluid toward proto.",
+        "Fluid in proto does communicate the measure with observe via effect toward truth \u2014 transfer.",
+        "Proto in fluid does communicate the diagnose with trinary via flow toward form \u2014 create."
+      ],
+      "steps": [
+        {
+          "index": 1,
+          "phase": "emergence",
+          "kind": "sentence",
+          "focus": "proto",
+          "domain": "linguistic",
+          "sentence": "Fluid in field does communicate the meaning with consensus via omni toward theory \u2014 seed.",
+          "fills": null
+        },
+        {
+          "index": 2,
+          "phase": "structure",
+          "kind": "sentence",
+          "focus": "fluid",
+          "domain": "linguistic",
+          "sentence": "Proto in domain does communicate the language with structure via fluid toward verify \u2014 fsot.",
+          "fills": null
+        },
+        {
+          "index": 3,
+          "phase": "interaction",
+          "kind": "sentence",
+          "focus": "proto",
+          "domain": "linguistic",
+          "sentence": "Fluid in phase does communicate the scalar with parameter via spacetime toward proof \u2014 proto.",
+          "fills": null
+        },
+        {
+          "index": 4,
+          "phase": "consequence",
+          "kind": "connector",
+          "focus": "fluid",
+          "domain": "linguistic",
+          "sentence": "Therefore communicate joins fluid toward proto.",
+          "fills": {
+            "a": "communicate",
+            "b": "fluid",
+            "c": "proto"
+          }
+        },
+        {
+          "index": 5,
+          "phase": "measure",
+          "kind": "sentence",
+          "focus": "proto",
+          "domain": "linguistic",
+          "sentence": "Fluid in proto does communicate the measure with observe via effect toward truth \u2014 transfer.",
+          "fills": null
+        },
+        {
+          "index": 6,
+          "phase": "seal",
+          "kind": "sentence",
+          "focus": "communicate",
+          "domain": "linguistic",
+          "sentence": "Proto in fluid does communicate the diagnose with trinary via flow toward form \u2014 create.",
+          "fills": null
+        }
+      ],
+      "formula": "paragraph_v2 = concat steps; step = structured_slots(8) | connector(Therefore/Thus/Hence + Phi fills); default arc length 6; no free params"
+    },
+    {
+      "prompt": "neural consciousness observe",
+      "mode": "paragraph_v2",
+      "domain": "neural",
+      "D_eff": 14.0,
+      "n_sentences": 6,
+      "arc": [
+        "emergence",
+        "structure",
+        "interaction",
+        "consequence",
+        "measure",
+        "seal"
+      ],
+      "paragraph": "Consciousness in field does observe the mind with consensus via meaning toward seed \u2014 neural. Consciousness in structure does observe the domain with phase via form toward truth \u2014 neural. Consciousness in observe does communicate the neural with fluid via language toward measure \u2014 flow. Therefore neural joins observe toward consciousness. Consciousness in observe does neural the neuroscience with verify via proto toward spacetime \u2014 omni. Consciousness in parameter does observe the neural with transfer via translate toward energy \u2014 fsot.",
+      "sentences": [
+        "Consciousness in field does observe the mind with consensus via meaning toward seed \u2014 neural.",
+        "Consciousness in structure does observe the domain with phase via form toward truth \u2014 neural.",
+        "Consciousness in observe does communicate the neural with fluid via language toward measure \u2014 flow.",
+        "Therefore neural joins observe toward consciousness.",
+        "Consciousness in observe does neural the neuroscience with verify via proto toward spacetime \u2014 omni.",
+        "Consciousness in parameter does observe the neural with transfer via translate toward energy \u2014 fsot."
+      ],
+      "steps": [
+        {
+          "index": 1,
+          "phase": "emergence",
+          "kind": "sentence",
+          "focus": "consciousness",
+          "domain": "neural",
+          "sentence": "Consciousness in field does observe the mind with consensus via meaning toward seed \u2014 neural.",
+          "fills": null
+        },
+        {
+          "index": 2,
+          "phase": "structure",
+          "kind": "sentence",
+          "focus": "observe",
+          "domain": "neural",
+          "sentence": "Consciousness in structure does observe the domain with phase via form toward truth \u2014 neural.",
+          "fills": null
+        },
+        {
+          "index": 3,
+          "phase": "interaction",
+          "kind": "sentence",
+          "focus": "mind",
+          "domain": "neural",
+          "sentence": "Consciousness in observe does communicate the neural with fluid via language toward measure \u2014 flow.",
+          "fills": null
+        },
+        {
+          "index": 4,
+          "phase": "consequence",
+          "kind": "connector",
+          "focus": "field",
+          "domain": "neural",
+          "sentence": "Therefore neural joins observe toward consciousness.",
+          "fills": {
+            "a": "neural",
+            "b": "observe",
+            "c": "consciousness"
+          }
+        },
+        {
+          "index": 5,
+          "phase": "measure",
+          "kind": "sentence",
+          "focus": "consciousness",
+          "domain": "neural",
+          "sentence": "Consciousness in observe does neural the neuroscience with verify via proto toward spacetime \u2014 omni.",
+          "fills": null
+        },
+        {
+          "index": 6,
+          "phase": "seal",
+          "kind": "sentence",
+          "focus": "neural",
+          "domain": "neural",
+          "sentence": "Consciousness in parameter does observe the neural with transfer via translate toward energy \u2014 fsot.",
+          "fills": null
+        }
+      ],
+      "formula": "paragraph_v2 = concat steps; step = structured_slots(8) | connector(Therefore/Thus/Hence + Phi fills); default arc length 6; no free params"
+    },
+    {
+      "prompt": "medical signal measure",
+      "mode": "paragraph_v2",
+      "domain": "medical",
+      "D_eff": 13.0,
+      "n_sentences": 6,
+      "arc": [
+        "emergence",
+        "structure",
+        "interaction",
+        "consequence",
+        "measure",
+        "seal"
+      ],
+      "paragraph": "Medical in field does measure the signal with parameter via consciousness toward verify \u2014 consensus. Medical in structure does measure the form with domain via code toward diagnose \u2014 transfer. Fluid in phase does communicate the meaning with theory via omni toward proof \u2014 seed. Therefore diagnose joins measure toward medical. Medical in observe does measure the truth with trinary via mind toward diagnose \u2014 create. Medical in diagnose does measure the proto with therefore via effect toward spacetime \u2014 energy.",
+      "sentences": [
+        "Medical in field does measure the signal with parameter via consciousness toward verify \u2014 consensus.",
+        "Medical in structure does measure the form with domain via code toward diagnose \u2014 transfer.",
+        "Fluid in phase does communicate the meaning with theory via omni toward proof \u2014 seed.",
+        "Therefore diagnose joins measure toward medical.",
+        "Medical in observe does measure the truth with trinary via mind toward diagnose \u2014 create.",
+        "Medical in diagnose does measure the proto with therefore via effect toward spacetime \u2014 energy."
+      ],
+      "steps": [
+        {
+          "index": 1,
+          "phase": "emergence",
+          "kind": "sentence",
+          "focus": "medical",
+          "domain": "medical",
+          "sentence": "Medical in field does measure the signal with parameter via consciousness toward verify \u2014 consensus.",
+          "fills": null
+        },
+        {
+          "index": 2,
+          "phase": "structure",
+          "kind": "sentence",
+          "focus": "measure",
+          "domain": "medical",
+          "sentence": "Medical in structure does measure the form with domain via code toward diagnose \u2014 transfer.",
+          "fills": null
+        },
+        {
+          "index": 3,
+          "phase": "interaction",
+          "kind": "sentence",
+          "focus": "signal",
+          "domain": "linguistic",
+          "sentence": "Fluid in phase does communicate the meaning with theory via omni toward proof \u2014 seed.",
+          "fills": null
+        },
+        {
+          "index": 4,
+          "phase": "consequence",
+          "kind": "connector",
+          "focus": "truth",
+          "domain": "medical",
+          "sentence": "Therefore diagnose joins measure toward medical.",
+          "fills": {
+            "a": "diagnose",
+            "b": "measure",
+            "c": "medical"
+          }
+        },
+        {
+          "index": 5,
+          "phase": "measure",
+          "kind": "sentence",
+          "focus": "medical",
+          "domain": "medical",
+          "sentence": "Medical in observe does measure the truth with trinary via mind toward diagnose \u2014 create.",
+          "fills": null
+        },
+        {
+          "index": 6,
+          "phase": "seal",
+          "kind": "sentence",
+          "focus": "diagnose",
+          "domain": "medical",
+          "sentence": "Medical in diagnose does measure the proto with therefore via effect toward spacetime \u2014 energy.",
+          "fills": null
+        }
+      ],
+      "formula": "paragraph_v2 = concat steps; step = structured_slots(8) | connector(Therefore/Thus/Hence + Phi fills); default arc length 6; no free params"
+    }
+  ]
+}
