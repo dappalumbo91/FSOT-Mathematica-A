@@ -92,15 +92,16 @@ Ontology note: ad-hoc free params steer when direction is unknown; FSOT fixes di
 ### Conversation notes
 
 See `docs/CONVERSATION.md`. Explain mode uses `data/explanatory_pack.json` (claims first). Deep arcs use 6–8 step paragraph tissue when not answering how/why.
+
 ```powershell
 python scripts/expand_fluency_curriculum.py --quick-train
 python scripts/fsot_conversation.py --chat
 ```
 
-Script (if Wolfram Engine installed):
+Wolfram Engine (optional):
 
 ```powershell
-wolframscript -file "I:\fsot in mathmatica\examples\FSOT_LLM_Train_Generate.wls"
+wolframscript -file "examples/FSOT_LLM_Train_Generate.wls"
 ```
 
 ---
@@ -108,15 +109,18 @@ wolframscript -file "I:\fsot in mathmatica\examples\FSOT_LLM_Train_Generate.wls"
 ## Layout
 
 ```
-I:\fsot in mathmatica\
-  FSOT\           Scalar, domains, shared embeds, init
-  llm\            FSOTLLM.wl — LLM engine + traces/
-  living\         Living observer mind
-  memory\         Persisted mind + model JSON
-  data\           Seeds authority, curriculum, domain export
-  examples\       Train/generate + living awaken scripts
-  docs\           FSOT_LLM.md, LIVING_MIND.md
-  bridge\         Desktop project links (PFLT, GPU, archive)
+FSOT-Mathematica-A/
+  FSOT/           Scalar, domains, shared embeds, init
+  llm/            FSOTLLM.wl — LLM engine + traces/
+  living/         Living observer mind
+  memory/         Persisted mind + model JSON
+  data/           Seeds authority, curriculum, explanatory pack
+  scripts/        Python train, conversation, explain, PFLT bridge
+  examples/       Train/generate + living awaken scripts
+  docs/           Continuity, conversation, allocation, LLM design
+  bridge/         Links to related FSOT projects
+  LICENSE         Apache-2.0
+  NOTICE
 ```
 
 ---
