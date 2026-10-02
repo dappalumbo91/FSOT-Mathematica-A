@@ -19,6 +19,6 @@ A score of ~0.6 in **medical** (D_eff=13) is not the same occupation as ~0.6 in 
 ## Run
 
 ```powershell
-cd "I:\fsot in mathmatica"
+cd "FSOT-Mathematica-A"
 python scripts\run_fsot_llm_python.py
 ```

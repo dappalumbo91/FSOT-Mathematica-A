@@ -7,7 +7,7 @@
 **License:** Apache License 2.0  
 **Repo:** https://github.com/dappalumbo91/FSOT-Mathematica-A  
 
-Local clone path (optional): `I:\fsot in mathmatica`  
+Local clone path (optional): `.`  
 Verification authority (separate archive): Lean / multi-prover hub + GPU seed triangulation
 
 ## What this is

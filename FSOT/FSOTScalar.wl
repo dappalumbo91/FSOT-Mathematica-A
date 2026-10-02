@@ -6,7 +6,7 @@
   Zero free parameters: every constant is derived from seeds {Pi, E, Phi, Gamma, G}.
 
   Usage (Mathematica / Wolfram Engine):
-    Get["I:/FSOT-Physical-Archive/02_FSOT-2.1-Lean-Full/mathematica/FSOT/FSOTScalar.wl"]
+    Get["FSOT/FSOTScalar.wl"]   (* path relative to the repo root *)
     FSOT`BootScalar[]
     FSOT`RawS[<|"D_eff" -> 14, "delta_psi" -> 0.7, "observed" -> True|>]
 *)

@@ -16,7 +16,7 @@ Not as a replacement for Lean verification or CUDA throughput, but as the **form
 ## How we use it
 
 ```wolfram
-Get["I:/fsot in mathmatica/FSOT/init.wl"]
+Get["FSOT/init.wl"]
 
 FSOTLLMFormulaSheet[]
 

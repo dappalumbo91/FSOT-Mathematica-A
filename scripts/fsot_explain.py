@@ -11,12 +11,18 @@ Problem we fix:
 
 from __future__ import annotations
 
+import os as _os
+from pathlib import Path as _Path
+
+_REPO_ROOT = _Path(__file__).resolve().parents[1]
+
+
 import argparse
 import json
 import re
 from pathlib import Path
 
-HOME = Path(r"I:\fsot in mathmatica")
+HOME = _REPO_ROOT
 DATA = HOME / "data"
 PACK = DATA / "explanatory_pack.json"
 

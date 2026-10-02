@@ -78,10 +78,10 @@ That is the point of Mathematica here: **see the relationships**.
 ## Run
 
 ```wolfram
-Get["I:/fsot in mathmatica/FSOT/init.wl"]
+Get["FSOT/init.wl"]
 FSOTLLMVerifyAuthority[]
 FSOTLLMNew[]
-cur = Import["I:/fsot in mathmatica/data/fsot_llm_curriculum.json","RawJSON"]["pairs"]
+cur = Import["data/fsot_llm_curriculum.json","RawJSON"]["pairs"]
 FSOTLLMTrain[cur, 5]
 FSOTLLMGenerate["fluid spacetime communicate", 20]
 FSOTLLMLastTrace[]

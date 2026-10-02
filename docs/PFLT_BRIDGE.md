@@ -23,7 +23,7 @@ Train (`run_fsot_llm_python.py` / `publication_demo.py`) still needed when you w
 ## Commands
 
 ```powershell
-cd "I:\fsot in mathmatica"
+cd "FSOT-Mathematica-A"
 
 # Refresh prefers only + print 8-role sentences (loads existing model embeds if any)
 python scripts\refresh_pflt_bridge.py
@@ -46,7 +46,7 @@ python scripts\publication_demo.py
 ## Mathematica
 
 ```wolfram
-Get["I:/fsot in mathmatica/FSOT/init.wl"]
+Get["FSOT/init.wl"]
 FSOTMicroscopeLoad[]
 FSOTMicroscopeStructured[]
 FSOTMicroscopeParagraphs[]   (* 6-sentence arcs + Therefore/Thus/Hence *)

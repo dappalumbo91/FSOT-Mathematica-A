@@ -7,7 +7,7 @@
   suction–poof learning, generation, and a mathematical TRACE of every step.
 
   Authority:
-    I:\FSOT-Physical-Archive\02_FSOT-2.1-Lean-Full
+    FSOT-2.1-Lean (physical archive 02_FSOT-2.1-Lean-Full)
     GPU seeds (fsot_seeds_authority.json) — same K, C_eff, P_var, boot scalar
     Scalar twin: FSOT/FSOTScalar.wl
 
@@ -171,7 +171,7 @@ FSOTLLMNew[opts___Rule] := Module[
     "id" -> "FSOT-LLM-Mathematica-1",
     "version" -> "1.0.0",
     "created" -> DateString[],
-    "authority" -> "I:/FSOT-Physical-Archive/02_FSOT-2.1-Lean-Full",
+    "authority" -> "FSOT-2.1-Lean",
     "dim" -> dim,
     "vocab" -> vocab,
     "vocab_index" -> Association @@ MapIndexed[#1 -> First[#2] &, vocab],

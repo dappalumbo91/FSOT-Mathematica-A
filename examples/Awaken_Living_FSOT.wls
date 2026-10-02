@@ -1,10 +1,10 @@
 (* Awaken_Living_FSOT.wls — birth the living mind and run a short life cycle *)
 (*
-  wolframscript -file "I:/fsot in mathmatica/examples/Awaken_Living_FSOT.wls"
+  wolframscript -file examples/Awaken_Living_FSOT.wls   (from the repo root)
   or evaluate in Mathematica after Get of init.wl
 *)
 
-Get["I:/fsot in mathmatica/FSOT/init.wl"];
+Get[FileNameJoin[{ParentDirectory[DirectoryName[$InputFileName]], "FSOT", "init.wl"}]];
 
 Print["\n=== IDENTITY ==="];
 Print @ FSOTIdentity[];

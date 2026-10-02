@@ -2,7 +2,7 @@
    Full pipeline: verify authority → train multi-domain curriculum → generate → dump math trace
 *)
 
-Get["I:/fsot in mathmatica/FSOT/init.wl"];
+Get[FileNameJoin[{ParentDirectory[DirectoryName[$InputFileName]], "FSOT", "init.wl"}]];
 
 Print["\n======== FSOT LLM MATH SHEET ========"];
 Print @ FSOTLLMShowMath[];
@@ -17,7 +17,7 @@ m = FSOTLLMNew[];
 Print["dim=", m["dim"], " vocab=", Length[m["vocab"]], " collapseθ=", m["constants"]["collapse_threshold"]];
 
 Print["\n======== LOAD CURRICULUM ========"];
-cur = Import["I:/fsot in mathmatica/data/fsot_llm_curriculum.json", "RawJSON"];
+cur = Import[FileNameJoin[{ParentDirectory[DirectoryName[$InputFileName]], "data", "fsot_llm_curriculum.json"}], "RawJSON"];
 pairs = cur["pairs"];
 Print["pairs=", Length[pairs]];
 
@@ -52,4 +52,4 @@ If[NameQ["FSOT`FSOTThink"],
 
 Print["\n======== SAVED ========"];
 Print @ FSOTLLMSave[];
-Print["Trace file: I:/fsot in mathmatica/llm/traces/last_forward_trace.json"];
+Print["Trace file: ", FileNameJoin[{ParentDirectory[DirectoryName[$InputFileName]], "llm", "traces", "last_forward_trace.json"}]];

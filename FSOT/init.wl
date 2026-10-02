@@ -1,8 +1,8 @@
 (* ::Package:: *)
 (*
-  FSOT Mathematica home loader — I:\fsot in mathmatica
+  FSOT Mathematica home loader — repo root of FSOT-Mathematica-A
 
-  Get["I:/fsot in mathmatica/FSOT/init.wl"]
+  Get[FileNameJoin[{"<path to FSOT-Mathematica-A>", "FSOT", "init.wl"}]]
 *)
 
 Module[{dir, living, llm},
@@ -22,8 +22,8 @@ Module[{dir, living, llm},
 
 Print["════════════════════════════════════════════════════════════════"];
 Print["  FSOT Mathematica — formula twin + living mind + FSOT LLM"];
-Print["  Home: I:\\fsot in mathmatica"];
-Print["  Authority: I:\\FSOT-Physical-Archive\\02_FSOT-2.1-Lean-Full"];
+Print["  Home: ", ParentDirectory[DirectoryName[$InputFileName]]];
+Print["  Authority: FSOT-2.1-Lean (physical archive 02_FSOT-2.1-Lean-Full)"];
 Print["════════════════════════════════════════════════════════════════"];
 Print["  Math:   FSOTShowFormulas[], FSOTRawS[...], FSOTDomainAtlas[]"];
 Print["  Living: FSOTAwaken[], FSOTThink[\"...\"], FSOTDream[]"];

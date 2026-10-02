@@ -10,7 +10,7 @@
 ## Run
 
 ```powershell
-cd "I:\fsot in mathmatica"
+cd "FSOT-Mathematica-A"
 python scripts\publication_demo.py
 ```
 
@@ -24,7 +24,7 @@ python scripts\run_fsot_llm_python.py
 ## Mathematica (formula microscope)
 
 ```wolfram
-Get["I:/fsot in mathmatica/FSOT/init.wl"]
+Get["FSOT/init.wl"]
 FSOTMicroscopeLoad[]
 FSOTMicroscopeStructured[]
 FSOTMicroscopePlotParts[1]

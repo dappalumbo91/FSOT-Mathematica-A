@@ -56,7 +56,7 @@ That is the path toward proof-shaped universal communication (PFLT), not just pr
 ## Run
 
 ```powershell
-cd "I:\fsot in mathmatica"
+cd "FSOT-Mathematica-A"
 python scripts/fsot_conversation.py --smoke   # multi-turn demo + export
 python scripts/fsot_conversation.py --chat    # interactive
 python scripts/fsot_conversation.py --once "what is fsot?"
@@ -68,7 +68,7 @@ Chat prefixes: `/deep `, `/brief `, `/dream`, `/recall`
 ## Mathematica microscope
 
 ```wolfram
-Get["I:/fsot in mathmatica/FSOT/init.wl"]
+Get["FSOT/init.wl"]
 FSOTMicroscopeLoad[]
 FSOTMicroscopeConversation[]
 FSOTMicroscopeConversation[1]
