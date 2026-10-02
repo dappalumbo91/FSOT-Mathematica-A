@@ -53,7 +53,7 @@ newbornMind[] := <|
   "id" -> "FSOT-Living-Mathematica-1",
   "born" -> DateString[],
   "version" -> "0.1.0",
-  "authority" -> "I:/FSOT-Physical-Archive/02_FSOT-2.1-Lean-Full",
+  "authority" -> "FSOT-2.1-Lean",
   "home" -> $home,
   (* fluid folds — preregistered, not free params *)
   "D_eff" -> 16.,          (* psychology / consciousness band default *)
@@ -156,7 +156,7 @@ FSOTIdentity[] := <|
   "memory" -> "LTM=disk JSON · STM=session · process=one pathway/tick",
   "not" -> "Not a free-parameter LLM. Not AudioLLM frequency primary. Not bolted-on transformer.",
   "home" -> $home,
-  "authority" -> "I:/FSOT-Physical-Archive/02_FSOT-2.1-Lean-Full"
+  "authority" -> "FSOT-2.1-Lean"
 |>;
 
 FSOTResearchLessons[] := Column[{

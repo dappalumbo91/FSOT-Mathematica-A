@@ -1,6 +1,6 @@
 (* Live_Dialogue.wls — fluid observer dialogue + microscope of Python conversation *)
 
-Get["I:/fsot in mathmatica/FSOT/init.wl"];
+Get[FileNameJoin[{ParentDirectory[DirectoryName[$InputFileName]], "FSOT", "init.wl"}]];
 FSOTAwaken[];
 
 prompts = {

@@ -10,12 +10,18 @@ Run after (or it will invoke) the train path lightly via import.
 
 from __future__ import annotations
 
+import os as _os
+from pathlib import Path as _Path
+
+_REPO_ROOT = _Path(__file__).resolve().parents[1]
+
+
 import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-HOME = Path(r"I:\fsot in mathmatica")
+HOME = _REPO_ROOT
 sys.path.insert(0, str(HOME / "scripts"))
 
 DATA = HOME / "data"
@@ -34,7 +40,7 @@ def main() -> int:
     print("=" * 72)
     print("FSOT LLM PUBLICATION DEMO")
     print("Home:", HOME)
-    print("Authority: I:/FSOT-Physical-Archive/02_FSOT-2.1-Lean-Full")
+    print("Authority: FSOT-2.1-Lean")
     print("Mathematica role: formula microscope (not Lean replacement)")
     print("=" * 72)
 
@@ -165,7 +171,7 @@ def main() -> int:
             "paragraph_v2": "concat(structured_slots | connector Therefore/Thus/Hence + Phi fills); default arc length 6",
         },
         "mathematica": {
-            "load": 'Get["I:/fsot in mathmatica/FSOT/init.wl"]',
+            "load": 'Get["FSOT/init.wl"]',
             "microscope": [
                 "FSOTMicroscopeLoad[]",
                 "FSOTMicroscopeCompare[1]",
@@ -187,7 +193,7 @@ def main() -> int:
     print("DEMO COMPLETE  authority_ok=", demo["authority_ok"])
     print("Wrote", OUT)
     print("Mathematica microscope:")
-    print('  Get["I:/fsot in mathmatica/FSOT/init.wl"]')
+    print('  Get["FSOT/init.wl"]')
     print("  FSOTMicroscopeLoad[]; FSOTMicroscopePlotParts[1]; FSOTMicroscopeStructured[]; FSOTMicroscopeParagraphs[]")
     print("=" * 72)
     return 0

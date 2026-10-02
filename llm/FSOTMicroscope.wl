@@ -2,8 +2,8 @@
 (*
   FSOTMicroscope.wl — Load Python-exported score boards and visualize remedies.
 
-  Get["I:/fsot in mathmatica/FSOT/init.wl"]
-  Get["I:/fsot in mathmatica/llm/FSOTMicroscope.wl"]
+  Get["FSOT/init.wl"]            (* paths relative to the repo root *)
+  Get["llm/FSOTMicroscope.wl"]
   FSOTMicroscopeLoad[]
   FSOTMicroscopeCompare[1]   (* first board *)
   FSOTMicroscopePlotParts[1]

@@ -11,13 +11,19 @@ train / quick-warm can absorb them. Optional --quick-train warms embeds.
 
 from __future__ import annotations
 
+import os as _os
+from pathlib import Path as _Path
+
+_REPO_ROOT = _Path(__file__).resolve().parents[1]
+
+
 import argparse
 import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-HOME = Path(r"I:\fsot in mathmatica")
+HOME = _REPO_ROOT
 DATA = HOME / "data"
 CUR = DATA / "fsot_llm_curriculum.json"
 VOCAB = DATA / "fsot_llm_vocab.json"

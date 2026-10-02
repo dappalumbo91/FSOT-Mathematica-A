@@ -12,13 +12,19 @@ slot sentences update immediately. Embeddings/train state stay as-is.
 
 from __future__ import annotations
 
+import os as _os
+from pathlib import Path as _Path
+
+_REPO_ROOT = _Path(__file__).resolve().parents[1]
+
+
 import argparse
 import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-HOME = Path(r"I:\fsot in mathmatica")
+HOME = _REPO_ROOT
 DATA = HOME / "data"
 sys.path.insert(0, str(HOME / "scripts"))
 
@@ -95,7 +101,7 @@ def main() -> int:
     do_smoke = args.smoke or not args.no_smoke
 
     print("=== PFLT BRIDGE REFRESH (no full retrain) ===")
-    print(f"PFLT data: C:\\Users\\damia\\Desktop\\pflt\\data")
+    print(f"PFLT data: protofluid-language-translator/data")
     print(f"Out: {DATA / 'domain_slot_prefers.json'}")
 
     rc = build_prefers()

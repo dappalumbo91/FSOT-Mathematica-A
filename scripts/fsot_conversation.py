@@ -40,6 +40,12 @@ Continuity:
 
 from __future__ import annotations
 
+import os as _os
+from pathlib import Path as _Path
+
+_REPO_ROOT = _Path(__file__).resolve().parents[1]
+
+
 import argparse
 import json
 import math
@@ -48,7 +54,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-HOME = Path(r"I:\fsot in mathmatica")
+HOME = _REPO_ROOT
 DATA = HOME / "data"
 MEM = HOME / "memory"
 MICRO = DATA / "microscope"
@@ -457,7 +463,7 @@ class FSOTConversation:
         elif any(k in t for k in ("authority", "lean", "proof", "verify")):
             body = (
                 "Verification lives on Lean + Coq + Isabelle + F* + Rust under "
-                "I:/FSOT-Physical-Archive. I articulate, route, and remember; proofs kill claims there."
+                "$FSOT_ARCHIVE_ROOT. I articulate, route, and remember; proofs kill claims there."
             )
         else:
             body = (
