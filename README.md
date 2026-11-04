@@ -8,7 +8,7 @@
 **Repo:** https://github.com/dappalumbo91/FSOT-Mathematica-A  
 
 Local clone path (optional): `I:\fsot in mathmatica`  
-Verification authority (separate archive): Lean / multi-prover hub + GPU seed triangulation
+Verification / theory authority: [FSOT-2.1-Lean](https://github.com/dappalumbo91/FSOT-2.1-Lean) pin **AEB2AD** (`vendor/fsot_compute.py`). (plus GPU seed triangulation)
 
 ## What this is
 
